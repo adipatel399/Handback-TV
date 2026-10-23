@@ -1,0 +1,140 @@
+[
+  {
+    "text": "These",
+    "start": 0.06,
+    "end": 0.22,
+    "id": "w0"
+  },
+  {
+    "text": "journey",
+    "start": 0.29,
+    "end": 0.65,
+    "id": "w1"
+  },
+  {
+    "text": "options",
+    "start": 0.65,
+    "end": 1,
+    "id": "w2"
+  },
+  {
+    "text": "come",
+    "start": 1.03,
+    "end": 1.24,
+    "id": "w3"
+  },
+  {
+    "text": "from",
+    "start": 1.24,
+    "end": 1.45,
+    "id": "w4"
+  },
+  {
+    "text": "transport",
+    "start": 1.45,
+    "end": 1.92,
+    "id": "w5"
+  },
+  {
+    "text": "for",
+    "start": 2.04,
+    "end": 2.16,
+    "id": "w6"
+  },
+  {
+    "text": "London,",
+    "start": 2.16,
+    "end": 2.61,
+    "id": "w7"
+  },
+  {
+    "text": "live.",
+    "start": 2.8,
+    "end": 3.84,
+    "id": "w8"
+  },
+  {
+    "text": "Walking",
+    "start": 3.9,
+    "end": 4.32,
+    "id": "w9"
+  },
+  {
+    "text": "and",
+    "start": 4.32,
+    "end": 4.51,
+    "id": "w10"
+  },
+  {
+    "text": "changes",
+    "start": 4.58,
+    "end": 5,
+    "id": "w11"
+  },
+  {
+    "text": "stay",
+    "start": 5,
+    "end": 5.27,
+    "id": "w12"
+  },
+  {
+    "text": "within",
+    "start": 5.27,
+    "end": 5.68,
+    "id": "w13"
+  },
+  {
+    "text": "the",
+    "start": 5.68,
+    "end": 5.76,
+    "id": "w14"
+  },
+  {
+    "text": "Helper's",
+    "start": 5.88,
+    "end": 6.41,
+    "id": "w15"
+  },
+  {
+    "text": "limits.",
+    "start": 6.41,
+    "end": 7.02,
+    "id": "w16"
+  },
+  {
+    "text": "The",
+    "start": 7.14,
+    "end": 7.26,
+    "id": "w17"
+  },
+  {
+    "text": "source",
+    "start": 7.26,
+    "end": 7.63,
+    "id": "w18"
+  },
+  {
+    "text": "and",
+    "start": 7.63,
+    "end": 7.75,
+    "id": "w19"
+  },
+  {
+    "text": "freshness",
+    "start": 7.81,
+    "end": 8.35,
+    "id": "w20"
+  },
+  {
+    "text": "stay",
+    "start": 8.35,
+    "end": 8.58,
+    "id": "w21"
+  },
+  {
+    "text": "visible.",
+    "start": 8.58,
+    "end": 9.24,
+    "id": "w22"
+  }
+]

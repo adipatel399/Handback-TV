@@ -1,0 +1,15 @@
+Handback TV — Give the everyday back.
+
+A helper sets familiar stations, comfortable walking limits and changes. The person uses a familiar remote to choose where to go, review real Transport for London routes, hear instructions, and save a route reminder.
+
+This working prototype is demonstrated on an Android TV emulator connected to a private Azure deployment. TfL information is genuine point-in-time data. Saved routes are reminders, not tickets. The separate Willow Link booking lab is fictional: no real ticket, payment or reservation is made. Its controlled fare-change test requires fresh consent and verifies an independently stored receipt.
+
+33 automated tests passed. Only builder and emulator testing has been completed; testing with older adults and helpers remains future work. No physical Fire TV testing or target-user outcomes are claimed.
+
+Narration: locally synthesized Kokoro af_heart; no voice cloning. Original app capture and motion edit produced with the Brag skill and Hyperframes. Music edited, excerpted, looped, faded and ducked under narration.
+
+Music credit:
+Phonk Execution by Alex-Productions | https://onsound.eu/
+Royalty Free Music by https://www.free-stock-music.com
+Creative Commons / Attribution 3.0 Unported License (CC BY 3.0)
+https://creativecommons.org/licenses/by/3.0/deed.en_US

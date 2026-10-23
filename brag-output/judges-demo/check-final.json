@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 3 has 77 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/Users/aditya/Downloads/Hackathon - Amazon/brag-output/judges-demo/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 16
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 93.188,
+        "selector": "#change > div:nth-of-type(1) > p:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 140,
+          "top": 1001,
+          "right": 974.09,
+          "bottom": 1035,
+          "width": 834.09,
+          "height": 34
+        },
+        "containerSelector": "#change-chapter",
+        "text": "FICTIONAL BOOKING LAB · FARE DELIBERATELY RAISED BY ₹20",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/change.html",
+        "bbox": {
+          "x": 140,
+          "y": 1001,
+          "width": 834.09,
+          "height": 34
+        },
+        "firstSeen": 93.188,
+        "lastSeen": 93.188,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          93.188
+        ]
+      }
+    ],
+    "duration": 133.125,
+    "samples": [
+      4.438,
+      13.313,
+      22.188,
+      31.063,
+      39.938,
+      48.813,
+      57.688,
+      66.563,
+      75.438,
+      84.313,
+      93.188,
+      102.063,
+      110.938,
+      119.813,
+      128.688
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4.438,
+      31.063,
+      66.563,
+      93.188,
+      128.688
+    ],
+    "checked": 17,
+    "passed": 17
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.2220000000000013,
+    "samples": 599
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "17816cc4-a9b0-45b5-8bd6-99987bed7657",
+    "revision": "1906e2f4-f0ae-4934-b866-4dd0969ba48c",
+    "report": "/Users/aditya/Downloads/Hackathon - Amazon/brag-output/judges-demo/.hyperframes/artifacts/checks/17816cc4-a9b0-45b5-8bd6-99987bed7657.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.186",
+    "updateAvailable": false
+  }
+}

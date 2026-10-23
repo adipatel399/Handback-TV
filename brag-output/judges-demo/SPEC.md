@@ -1,0 +1,9 @@
+GOAL: Handback gives the person the decision; a familiar remote chooses a real London journey within a helper's boundaries.
+OUTPUT: Hyperframes 0.8.186; 1920×1080; 30 fps; 133.125 authored seconds, 3994 encoded frames (~133.133s).
+LOOK: deep teal #091b1d, cream #f5f4ee, orange #efb879. Local Anton display 156–270px and Inter speech captions 44px. Full-frame native footage, no perspective distortion. Helper fields are enlarged actual form crops. Caption blocks and source labels occupy separate low-screen positions.
+OBJECTS: original app destination, real TfL route/steps, saved-route screen; separate explicitly fictional Willow Link booking lab, changed fare warning and stored receipt. No physical hardware claim.
+MOTION: 0.18–0.24s type reveals and chapter exits. Product reveal on measured music drop at 5.625s. Chapter boundaries aligned to a 128 BPM bar grid. Selective 1.07x beat punch-ins; confirmations and receipt hold full-frame.
+SOUND: local Kokoro af_heart, leveled voice stems. Phonk Execution by Alex-Productions, instrumental CC BY 3.0. Music gain 0.11 under voice, max 0.33 between phrases. No extra impact/transition noise. Final mix measured ~-15.1 LUFS, -1.7dBTP; audio copied through poster bake.
+SHOTS: ../STORYBOARD.md and ../demo-edit.json define 14 scenes. Real emulator capture, actual enlarged helper fields, editorial runtime and proof cards. No simulated app actions.
+BANNED: unverifiable metrics, testimonials, winner claims, invented research, fake app screens, stock older-adult footage, fake clicking, tiny floating app cards, gratuitous particles/glows, serif editorial video titles, loud music under voice. Native product type remains visible inside source footage.
+QA: zero Hyperframes check errors, review beats/phone sheets/cut strips and decoded export, no secrets. Actual native input tests documented separately. Synthetic narration disclosed; sound measured, not heard by the agent.

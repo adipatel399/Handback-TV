@@ -1,0 +1,37 @@
+services:
+  app:
+    build: /opt/handback/source
+    restart: unless-stopped
+    env_file: /opt/handback/private.env
+    volumes:
+      - /opt/handback/data:/app/.data
+    networks: [handback]
+    shm_size: 256mb
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: '2'
+  proxy:
+    image: caddy:2
+    restart: unless-stopped
+    environment:
+      HANDBACK_DOMAIN: ${HANDBACK_DOMAIN}
+    ports: ['80:80', '443:443']
+    volumes:
+      - /opt/handback/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks: [handback]
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: '2'
+networks:
+  handback:
+volumes:
+  caddy_data:
+  caddy_config:

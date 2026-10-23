@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "data": "synthetic deterministic fixture; separate live smoke verifies TfL",
+  "viewport": "960x540",
+  "checks": [
+    "pairing",
+    "remote-only route choice and every step",
+    "local save without reservation",
+    "saved route refresh",
+    "helper walking limits never relaxed",
+    "opt-in study session",
+    "automation excluded from human evidence",
+    "assisted outcome cannot be labelled independent"
+  ],
+  "browserErrors": []
+}

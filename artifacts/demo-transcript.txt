@@ -1,0 +1,19 @@
+000s  A familiar remote can be an opportunity to give a decision back. Handback TV explores that through everyday travel planning.
+
+012s  A helper chooses public London stations, comfortable walking and change limits, and a step free routing preference. The destination remains the person's choice.
+
+025s  These are actual journey options from Transport for London. Handback checks walking and changes, shows when the information was fetched, and keeps London time.
+
+038s  Review the journey before opening one instruction at a time. Large focus states and a predictable remote keep the choices deliberate.
+
+052s  Play and pause reads the current instruction aloud, then stops. This emulator uses local speech on the paired Mac, played through native Android audio.
+
+070s  The reviewed route is saved locally. This is a reminder, not a ticket. Reopening it checks fresh travel information rather than trusting an old copy.
+
+086s  Now a separate, clearly labelled booking lab. Its fictional shuttle provider lets us demonstrate transaction failures without booking a real journey or taking payment.
+
+103s  Before confirmation, the lab shows the exact passenger, pickup, destination, date, and fare. Here we deliberately increase the fare after that preview.
+
+118s  The old confirmation is rejected. Only a fresh review can proceed. The browser adapter then reads the provider's stored reservation before showing success.
+
+143s  The observation tool separates self tests, automation, and participants. Target user results remain uncollected. A helper sets the boundaries. The person keeps the decision.

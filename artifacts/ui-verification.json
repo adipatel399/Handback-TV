@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "real helper pairing",
+    "D-pad navigation",
+    "complete verified booking",
+    "persisted trip after reload",
+    "helper settings update TV without code edits",
+    "changed fare requires new confirmation",
+    "960x540 TV viewport fits",
+    "service disconnect and reconnection without another write"
+  ],
+  "browserErrors": []
+}

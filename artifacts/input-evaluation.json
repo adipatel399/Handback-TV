@@ -1,0 +1,125 @@
+{
+  "environment": "Real Playwright Chromium against the local reference provider",
+  "cases": [
+    {
+      "destinationId": "library",
+      "date": "2026-10-24",
+      "passed": true,
+      "durationMs": 169
+    },
+    {
+      "destinationId": "garden",
+      "date": "2026-10-25",
+      "passed": true,
+      "durationMs": 168
+    },
+    {
+      "destinationId": "arts",
+      "date": "2026-10-26",
+      "passed": true,
+      "durationMs": 171
+    },
+    {
+      "destinationId": "library",
+      "date": "2026-10-27",
+      "passed": true,
+      "durationMs": 170
+    },
+    {
+      "destinationId": "garden",
+      "date": "2026-10-28",
+      "passed": true,
+      "durationMs": 173
+    },
+    {
+      "destinationId": "arts",
+      "date": "2026-10-29",
+      "passed": true,
+      "durationMs": 189
+    },
+    {
+      "destinationId": "library",
+      "date": "2026-10-30",
+      "passed": true,
+      "durationMs": 187
+    },
+    {
+      "destinationId": "garden",
+      "date": "2026-10-24",
+      "passed": true,
+      "durationMs": 169
+    },
+    {
+      "destinationId": "arts",
+      "date": "2026-10-25",
+      "passed": true,
+      "durationMs": 172
+    },
+    {
+      "destinationId": "library",
+      "date": "2026-10-26",
+      "passed": true,
+      "durationMs": 171
+    },
+    {
+      "destinationId": "garden",
+      "date": "2026-10-27",
+      "passed": true,
+      "durationMs": 170
+    },
+    {
+      "destinationId": "arts",
+      "date": "2026-10-28",
+      "passed": true,
+      "durationMs": 169
+    },
+    {
+      "destinationId": "library",
+      "date": "2026-10-29",
+      "passed": true,
+      "durationMs": 170
+    },
+    {
+      "destinationId": "garden",
+      "date": "2026-10-30",
+      "passed": true,
+      "durationMs": 170
+    },
+    {
+      "destinationId": "arts",
+      "date": "2026-10-24",
+      "passed": true,
+      "durationMs": 169
+    },
+    {
+      "destinationId": "library",
+      "date": "2026-10-25",
+      "passed": true,
+      "durationMs": 170
+    },
+    {
+      "destinationId": "garden",
+      "date": "2026-10-26",
+      "passed": true,
+      "durationMs": 168
+    },
+    {
+      "destinationId": "arts",
+      "date": "2026-10-27",
+      "passed": true,
+      "durationMs": 168
+    },
+    {
+      "destinationId": "library",
+      "date": "2026-10-28",
+      "passed": true,
+      "durationMs": 168
+    },
+    {
+      "destinationId": "garden",
+      "date": "2026-10-29",
+      "passed": true,
+      "durationMs": 170
+    }
+  ]
+}

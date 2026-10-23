@@ -1,0 +1,110 @@
+[
+  {
+    "text": "Now",
+    "start": 0.05,
+    "end": 0.23,
+    "id": "w0"
+  },
+  {
+    "text": "the",
+    "start": 0.23,
+    "end": 0.43,
+    "id": "w1"
+  },
+  {
+    "text": "person",
+    "start": 0.49,
+    "end": 0.88,
+    "id": "w2"
+  },
+  {
+    "text": "takes",
+    "start": 0.91,
+    "end": 1.24,
+    "id": "w3"
+  },
+  {
+    "text": "over.",
+    "start": 1.29,
+    "end": 1.84,
+    "id": "w4"
+  },
+  {
+    "text": "Choose",
+    "start": 1.89,
+    "end": 2.27,
+    "id": "w5"
+  },
+  {
+    "text": "Green",
+    "start": 2.33,
+    "end": 2.68,
+    "id": "w6"
+  },
+  {
+    "text": "Park",
+    "start": 2.68,
+    "end": 2.98,
+    "id": "w7"
+  },
+  {
+    "text": "with",
+    "start": 2.98,
+    "end": 3.28,
+    "id": "w8"
+  },
+  {
+    "text": "the",
+    "start": 3.28,
+    "end": 3.3,
+    "id": "w9"
+  },
+  {
+    "text": "D-pad.",
+    "start": 3.5,
+    "end": 3.92,
+    "id": "w10"
+  },
+  {
+    "text": "No",
+    "start": 3.97,
+    "end": 4.08,
+    "id": "w11"
+  },
+  {
+    "text": "keyboard,",
+    "start": 4.08,
+    "end": 4.88,
+    "id": "w12"
+  },
+  {
+    "text": "no",
+    "start": 4.88,
+    "end": 5.08,
+    "id": "w13"
+  },
+  {
+    "text": "phone,",
+    "start": 5.08,
+    "end": 5.8,
+    "id": "w14"
+  },
+  {
+    "text": "one",
+    "start": 5.85,
+    "end": 5.99,
+    "id": "w15"
+  },
+  {
+    "text": "clear",
+    "start": 5.99,
+    "end": 6.31,
+    "id": "w16"
+  },
+  {
+    "text": "decision.",
+    "start": 6.31,
+    "end": 7.04,
+    "id": "w17"
+  }
+]

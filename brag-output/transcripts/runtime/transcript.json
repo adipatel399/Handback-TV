@@ -1,0 +1,140 @@
+[
+  {
+    "text": "Underneath,",
+    "start": 0.05,
+    "end": 0.88,
+    "id": "w0"
+  },
+  {
+    "text": "a",
+    "start": 0.88,
+    "end": 0.95,
+    "id": "w1"
+  },
+  {
+    "text": "native",
+    "start": 0.95,
+    "end": 1.38,
+    "id": "w2"
+  },
+  {
+    "text": "Android",
+    "start": 1.41,
+    "end": 1.9,
+    "id": "w3"
+  },
+  {
+    "text": "launcher",
+    "start": 1.9,
+    "end": 2.35,
+    "id": "w4"
+  },
+  {
+    "text": "connects",
+    "start": 2.56,
+    "end": 3.04,
+    "id": "w5"
+  },
+  {
+    "text": "remote",
+    "start": 3.38,
+    "end": 3.71,
+    "id": "w6"
+  },
+  {
+    "text": "input",
+    "start": 3.71,
+    "end": 4.13,
+    "id": "w7"
+  },
+  {
+    "text": "and",
+    "start": 4.13,
+    "end": 4.34,
+    "id": "w8"
+  },
+  {
+    "text": "audio",
+    "start": 4.38,
+    "end": 4.84,
+    "id": "w9"
+  },
+  {
+    "text": "to",
+    "start": 4.84,
+    "end": 4.88,
+    "id": "w10"
+  },
+  {
+    "text": "a",
+    "start": 4.88,
+    "end": 5.07,
+    "id": "w11"
+  },
+  {
+    "text": "small",
+    "start": 5.07,
+    "end": 5.42,
+    "id": "w12"
+  },
+  {
+    "text": "web",
+    "start": 5.42,
+    "end": 5.66,
+    "id": "w13"
+  },
+  {
+    "text": "interface.",
+    "start": 5.66,
+    "end": 6.74,
+    "id": "w14"
+  },
+  {
+    "text": "The",
+    "start": 6.79,
+    "end": 6.95,
+    "id": "w15"
+  },
+  {
+    "text": "private",
+    "start": 6.95,
+    "end": 7.26,
+    "id": "w16"
+  },
+  {
+    "text": "Azure",
+    "start": 7.6,
+    "end": 7.78,
+    "id": "w17"
+  },
+  {
+    "text": "preview",
+    "start": 7.78,
+    "end": 8.26,
+    "id": "w18"
+  },
+  {
+    "text": "runs",
+    "start": 8.26,
+    "end": 8.56,
+    "id": "w19"
+  },
+  {
+    "text": "without",
+    "start": 8.56,
+    "end": 8.93,
+    "id": "w20"
+  },
+  {
+    "text": "the",
+    "start": 8.94,
+    "end": 9.09,
+    "id": "w21"
+  },
+  {
+    "text": "laptop.",
+    "start": 9.29,
+    "end": 9.53,
+    "id": "w22"
+  }
+]

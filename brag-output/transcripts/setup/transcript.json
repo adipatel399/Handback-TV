@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Choose",
+    "start": 0.06,
+    "end": 0.33,
+    "id": "w0"
+  },
+  {
+    "text": "familiar",
+    "start": 0.41,
+    "end": 0.94,
+    "id": "w1"
+  },
+  {
+    "text": "stations,",
+    "start": 0.94,
+    "end": 1.64,
+    "id": "w2"
+  },
+  {
+    "text": "a",
+    "start": 1.64,
+    "end": 1.72,
+    "id": "w3"
+  },
+  {
+    "text": "comfortable",
+    "start": 1.72,
+    "end": 2.3,
+    "id": "w4"
+  },
+  {
+    "text": "walking",
+    "start": 2.3,
+    "end": 2.7,
+    "id": "w5"
+  },
+  {
+    "text": "limit,",
+    "start": 2.7,
+    "end": 3.17,
+    "id": "w6"
+  },
+  {
+    "text": "and",
+    "start": 3.17,
+    "end": 3.26,
+    "id": "w7"
+  },
+  {
+    "text": "the",
+    "start": 3.26,
+    "end": 3.51,
+    "id": "w8"
+  },
+  {
+    "text": "number",
+    "start": 3.52,
+    "end": 4.05,
+    "id": "w9"
+  },
+  {
+    "text": "of",
+    "start": 4.06,
+    "end": 4.23,
+    "id": "w10"
+  },
+  {
+    "text": "changes.",
+    "start": 4.23,
+    "end": 5.08,
+    "id": "w11"
+  },
+  {
+    "text": "Request",
+    "start": 5.18,
+    "end": 5.63,
+    "id": "w12"
+  },
+  {
+    "text": "step-free",
+    "start": 5.63,
+    "end": 6.28,
+    "id": "w13"
+  },
+  {
+    "text": "routing",
+    "start": 6.28,
+    "end": 6.54,
+    "id": "w14"
+  },
+  {
+    "text": "with",
+    "start": 6.84,
+    "end": 7.05,
+    "id": "w15"
+  },
+  {
+    "text": "its",
+    "start": 7.05,
+    "end": 7.23,
+    "id": "w16"
+  },
+  {
+    "text": "limits",
+    "start": 7.24,
+    "end": 7.62,
+    "id": "w17"
+  },
+  {
+    "text": "clearly",
+    "start": 7.62,
+    "end": 8.06,
+    "id": "w18"
+  },
+  {
+    "text": "explained.",
+    "start": 8.06,
+    "end": 8.64,
+    "id": "w19"
+  }
+]

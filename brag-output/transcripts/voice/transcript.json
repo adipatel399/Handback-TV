@@ -1,0 +1,116 @@
+[
+  {
+    "text": "Play",
+    "start": 0.09,
+    "end": 0.27,
+    "id": "w0"
+  },
+  {
+    "text": "and",
+    "start": 0.27,
+    "end": 0.37,
+    "id": "w1"
+  },
+  {
+    "text": "pause",
+    "start": 0.46,
+    "end": 0.8,
+    "id": "w2"
+  },
+  {
+    "text": "reads",
+    "start": 0.81,
+    "end": 1.15,
+    "id": "w3"
+  },
+  {
+    "text": "the",
+    "start": 1.15,
+    "end": 1.32,
+    "id": "w4"
+  },
+  {
+    "text": "current",
+    "start": 1.38,
+    "end": 1.83,
+    "id": "w5"
+  },
+  {
+    "text": "instruction",
+    "start": 1.83,
+    "end": 2.38,
+    "id": "w6"
+  },
+  {
+    "text": "and",
+    "start": 2.7,
+    "end": 2.8,
+    "id": "w7"
+  },
+  {
+    "text": "stops",
+    "start": 2.93,
+    "end": 3.18,
+    "id": "w8"
+  },
+  {
+    "text": "on",
+    "start": 3.2,
+    "end": 3.37,
+    "id": "w9"
+  },
+  {
+    "text": "request.",
+    "start": 3.5,
+    "end": 4.44,
+    "id": "w10"
+  },
+  {
+    "text": "Large",
+    "start": 4.53,
+    "end": 4.79,
+    "id": "w11"
+  },
+  {
+    "text": "focus",
+    "start": 4.79,
+    "end": 5.14,
+    "id": "w12"
+  },
+  {
+    "text": "states",
+    "start": 5.14,
+    "end": 5.56,
+    "id": "w13"
+  },
+  {
+    "text": "keep",
+    "start": 5.56,
+    "end": 5.82,
+    "id": "w14"
+  },
+  {
+    "text": "the",
+    "start": 5.89,
+    "end": 6.05,
+    "id": "w15"
+  },
+  {
+    "text": "next",
+    "start": 6.05,
+    "end": 6.28,
+    "id": "w16"
+  },
+  {
+    "text": "action",
+    "start": 6.33,
+    "end": 6.75,
+    "id": "w17"
+  },
+  {
+    "text": "clear.",
+    "start": 6.75,
+    "end": 7.24,
+    "id": "w18"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "duration": 133.125,
+  "music": "Phonk Execution \u2014 Alex-Productions",
+  "sourceOffset": 9.48,
+  "firstMeasuredBassDrop": 5.625,
+  "firstProductReveal": 5.625,
+  "beatsSource": "Hyperframes signal detection 128.3 BPM",
+  "sceneStarts": [
+    {
+      "scene": "hook",
+      "start": 0
+    },
+    {
+      "scene": "reveal",
+      "start": 5.625
+    },
+    {
+      "scene": "setup",
+      "start": 15.0
+    },
+    {
+      "scene": "choose",
+      "start": 24.375
+    },
+    {
+      "scene": "routes",
+      "start": 33.75
+    },
+    {
+      "scene": "steps",
+      "start": 45.0
+    },
+    {
+      "scene": "voice",
+      "start": 54.375
+    },
+    {
+      "scene": "saved",
+      "start": 63.75
+    },
+    {
+      "scene": "runtime",
+      "start": 71.25
+    },
+    {
+      "scene": "lab",
+      "start": 82.5
+    },
+    {
+      "scene": "change",
+      "start": 91.875
+    },
+    {
+      "scene": "receipt",
+      "start": 103.125
+    },
+    {
+      "scene": "proof",
+      "start": 114.375
+    },
+    {
+      "scene": "outro",
+      "start": 125.625
+    }
+  ],
+  "captionGroups": 77,
+  "wordsSource": "Local Whisper timings of actual Kokoro output"
+}

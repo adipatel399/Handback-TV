@@ -1,0 +1,140 @@
+[
+  {
+    "text": "33",
+    "start": 0.14,
+    "end": 0.39,
+    "id": "w0"
+  },
+  {
+    "text": "automated",
+    "start": 0.51,
+    "end": 1.28,
+    "id": "w1"
+  },
+  {
+    "text": "tests",
+    "start": 1.28,
+    "end": 1.68,
+    "id": "w2"
+  },
+  {
+    "text": "and",
+    "start": 1.86,
+    "end": 1.91,
+    "id": "w3"
+  },
+  {
+    "text": "real",
+    "start": 1.99,
+    "end": 2.29,
+    "id": "w4"
+  },
+  {
+    "text": "emulator",
+    "start": 2.29,
+    "end": 2.96,
+    "id": "w5"
+  },
+  {
+    "text": "checks",
+    "start": 2.96,
+    "end": 3.39,
+    "id": "w6"
+  },
+  {
+    "text": "support",
+    "start": 3.66,
+    "end": 4.17,
+    "id": "w7"
+  },
+  {
+    "text": "this",
+    "start": 4.17,
+    "end": 4.54,
+    "id": "w8"
+  },
+  {
+    "text": "prototype.",
+    "start": 4.54,
+    "end": 5.4,
+    "id": "w9"
+  },
+  {
+    "text": "Testing",
+    "start": 5.54,
+    "end": 5.93,
+    "id": "w10"
+  },
+  {
+    "text": "with",
+    "start": 5.93,
+    "end": 6.23,
+    "id": "w11"
+  },
+  {
+    "text": "older",
+    "start": 6.23,
+    "end": 6.61,
+    "id": "w12"
+  },
+  {
+    "text": "adults",
+    "start": 6.61,
+    "end": 7.04,
+    "id": "w13"
+  },
+  {
+    "text": "is",
+    "start": 7.05,
+    "end": 7.1,
+    "id": "w14"
+  },
+  {
+    "text": "the",
+    "start": 7.28,
+    "end": 7.45,
+    "id": "w15"
+  },
+  {
+    "text": "next",
+    "start": 7.45,
+    "end": 7.75,
+    "id": "w16"
+  },
+  {
+    "text": "step.",
+    "start": 7.75,
+    "end": 8.32,
+    "id": "w17"
+  },
+  {
+    "text": "No",
+    "start": 8.32,
+    "end": 8.46,
+    "id": "w18"
+  },
+  {
+    "text": "user",
+    "start": 8.46,
+    "end": 8.71,
+    "id": "w19"
+  },
+  {
+    "text": "results",
+    "start": 8.83,
+    "end": 9.23,
+    "id": "w20"
+  },
+  {
+    "text": "are",
+    "start": 9.23,
+    "end": 9.44,
+    "id": "w21"
+  },
+  {
+    "text": "invented.",
+    "start": 9.44,
+    "end": 10.23,
+    "id": "w22"
+  }
+]

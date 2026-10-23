@@ -1,0 +1,307 @@
+1
+00:00:00,330 --> 00:00:01,540
+The hardest part of a
+
+2
+00:00:01,540 --> 00:00:02,290
+simple journey
+
+3
+00:00:02,550 --> 00:00:03,810
+should not be asking someone
+
+4
+00:00:03,810 --> 00:00:04,520
+else to plan it.
+
+5
+00:00:06,025 --> 00:00:07,965
+Handback TV puts that decision
+
+6
+00:00:07,965 --> 00:00:09,645
+on a familiar remote.
+
+7
+00:00:09,645 --> 00:00:11,765
+A helper sets the boundaries.
+
+8
+00:00:11,785 --> 00:00:13,135
+The person chooses where to
+
+9
+00:00:13,135 --> 00:00:13,450
+go.
+
+10
+00:00:15,360 --> 00:00:17,600
+Choose familiar stations, a comfortable
+
+11
+00:00:17,600 --> 00:00:19,360
+walking limit, and the number
+
+12
+00:00:19,360 --> 00:00:20,460
+of changes.
+
+13
+00:00:20,480 --> 00:00:21,920
+Request step-free routing
+
+14
+00:00:22,140 --> 00:00:24,020
+with its limits clearly explained.
+
+15
+00:00:24,725 --> 00:00:26,565
+Now the person takes over.
+
+16
+00:00:26,565 --> 00:00:28,055
+Choose Green Park with the
+
+17
+00:00:28,175 --> 00:00:28,645
+D-pad.
+
+18
+00:00:28,645 --> 00:00:30,665
+No keyboard, no phone, one
+
+19
+00:00:30,665 --> 00:00:31,752
+clear decision.
+
+20
+00:00:34,110 --> 00:00:35,500
+These journey options come from
+
+21
+00:00:35,500 --> 00:00:36,740
+transport for London,
+
+22
+00:00:36,850 --> 00:00:37,950
+live.
+
+23
+00:00:37,950 --> 00:00:39,730
+Walking and changes stay within
+
+24
+00:00:39,730 --> 00:00:41,150
+the Helper's limits.
+
+25
+00:00:41,190 --> 00:00:42,630
+The source and freshness stay
+
+26
+00:00:42,630 --> 00:00:43,239
+visible.
+
+27
+00:00:45,350 --> 00:00:46,910
+Review the route, then take
+
+28
+00:00:46,910 --> 00:00:48,325
+it one instruction at a
+
+29
+00:00:48,325 --> 00:00:50,010
+time, where to walk, which
+
+30
+00:00:50,010 --> 00:00:51,690
+line to take, which direction
+
+31
+00:00:51,770 --> 00:00:52,377
+to travel.
+
+32
+00:00:54,765 --> 00:00:56,055
+Play and pause reads the
+
+33
+00:00:56,055 --> 00:00:57,135
+current instruction
+
+34
+00:00:57,375 --> 00:00:59,195
+and stops on request.
+
+35
+00:00:59,205 --> 00:01:00,725
+Large focus states keep the
+
+36
+00:01:00,725 --> 00:01:01,944
+next action clear.
+
+37
+00:01:04,100 --> 00:01:05,770
+Save the reviewed route.
+
+38
+00:01:05,840 --> 00:01:07,040
+It is a reminder,
+
+39
+00:01:07,340 --> 00:01:08,130
+never a ticket.
+
+40
+00:01:08,200 --> 00:01:09,420
+Opening it again checks fresh
+
+41
+00:01:09,700 --> 00:01:10,402
+information.
+
+42
+00:01:11,600 --> 00:01:13,980
+Underneath, a native Android launcher
+
+43
+00:01:14,110 --> 00:01:14,670
+connects
+
+44
+00:01:14,930 --> 00:01:16,430
+remote input and audio to
+
+45
+00:01:16,430 --> 00:01:18,340
+a small web interface.
+
+46
+00:01:18,340 --> 00:01:18,890
+The private
+
+47
+00:01:19,150 --> 00:01:20,720
+Azure preview runs without the
+
+48
+00:01:20,840 --> 00:01:21,160
+laptop.
+
+49
+00:01:22,860 --> 00:01:23,870
+And here is the part
+
+50
+00:01:23,870 --> 00:01:26,300
+polished demos usually skip.
+
+51
+00:01:26,300 --> 00:01:28,040
+A separate fictional booking lab
+
+52
+00:01:28,040 --> 00:01:29,300
+tests what happens
+
+53
+00:01:29,440 --> 00:01:30,690
+when the terms change after
+
+54
+00:01:30,690 --> 00:01:31,648
+you review them.
+
+55
+00:01:32,225 --> 00:01:34,625
+We deliberately raise the fare.
+
+56
+00:01:34,625 --> 00:01:36,505
+Handback rejects the old confirmation
+
+57
+00:01:36,985 --> 00:01:38,315
+and asks for a fresh
+
+58
+00:01:38,325 --> 00:01:38,885
+review.
+
+59
+00:01:39,105 --> 00:01:40,435
+It will not quietly agree
+
+60
+00:01:40,455 --> 00:01:40,975
+to a different
+
+61
+00:01:41,455 --> 00:01:41,663
+price.
+
+62
+00:01:43,465 --> 00:01:44,975
+Only then does the browser
+
+63
+00:01:44,975 --> 00:01:46,185
+adapter submit.
+
+64
+00:01:46,185 --> 00:01:47,765
+It reads the provider's stored
+
+65
+00:01:47,765 --> 00:01:50,185
+receipt before showing success.
+
+66
+00:01:50,185 --> 00:01:51,915
+If the outcome is unknown,
+
+67
+00:01:51,925 --> 00:01:53,468
+another booking is blocked.
+
+68
+00:01:54,815 --> 00:01:56,965
+33 automated tests and real
+
+69
+00:01:56,965 --> 00:01:58,145
+emulator checks
+
+70
+00:01:58,335 --> 00:02:00,155
+support this prototype.
+
+71
+00:02:00,215 --> 00:02:01,855
+Testing with older adults is
+
+72
+00:02:01,955 --> 00:02:02,995
+the next step.
+
+73
+00:02:02,995 --> 00:02:04,952
+No user results are invented.
+
+74
+00:02:05,975 --> 00:02:07,875
+A helper sets the boundaries.
+
+75
+00:02:07,875 --> 00:02:09,515
+The person keeps the decision.
+
+76
+00:02:09,635 --> 00:02:11,155
+Handback TV.
+
+77
+00:02:11,155 --> 00:02:12,426
+Give the everyday back.

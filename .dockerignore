@@ -1,0 +1,11 @@
+*
+!package.json
+!package-lock.json
+!tsconfig.json
+!vite.config.ts
+!server/
+!server/**
+!web/
+!web/**
+!LICENSE
+!THIRD_PARTY_NOTICES.md

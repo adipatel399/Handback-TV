@@ -1,0 +1,104 @@
+[
+  {
+    "text": "A",
+    "start": 0.05,
+    "end": 0.07,
+    "id": "w0"
+  },
+  {
+    "text": "helper",
+    "start": 0.07,
+    "end": 0.49,
+    "id": "w1"
+  },
+  {
+    "text": "sets",
+    "start": 0.49,
+    "end": 0.74,
+    "id": "w2"
+  },
+  {
+    "text": "the",
+    "start": 0.9,
+    "end": 0.96,
+    "id": "w3"
+  },
+  {
+    "text": "boundaries.",
+    "start": 0.99,
+    "end": 1.9,
+    "id": "w4"
+  },
+  {
+    "text": "The",
+    "start": 1.95,
+    "end": 2.08,
+    "id": "w5"
+  },
+  {
+    "text": "person",
+    "start": 2.08,
+    "end": 2.45,
+    "id": "w6"
+  },
+  {
+    "text": "keeps",
+    "start": 2.45,
+    "end": 2.64,
+    "id": "w7"
+  },
+  {
+    "text": "the",
+    "start": 2.8,
+    "end": 2.94,
+    "id": "w8"
+  },
+  {
+    "text": "decision.",
+    "start": 2.94,
+    "end": 3.51,
+    "id": "w9"
+  },
+  {
+    "text": "Hand",
+    "start": 3.71,
+    "end": 4.12,
+    "id": "w10"
+  },
+  {
+    "text": "back",
+    "start": 4.12,
+    "end": 4.58,
+    "id": "w11"
+  },
+  {
+    "text": "TV.",
+    "start": 4.58,
+    "end": 5.18,
+    "id": "w12"
+  },
+  {
+    "text": "Give",
+    "start": 5.23,
+    "end": 5.42,
+    "id": "w13"
+  },
+  {
+    "text": "the",
+    "start": 5.42,
+    "end": 5.6,
+    "id": "w14"
+  },
+  {
+    "text": "everyday",
+    "start": 5.6,
+    "end": 6.09,
+    "id": "w15"
+  },
+  {
+    "text": "back.",
+    "start": 6.09,
+    "end": 6.53,
+    "id": "w16"
+  }
+]

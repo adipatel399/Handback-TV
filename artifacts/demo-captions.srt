@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:04,631
+A familiar remote can be an opportunity to give a decision back. Handback
+
+2
+00:00:04,631 --> 00:00:07,125
+TV explores that through everyday travel planning.
+
+3
+00:00:12,000 --> 00:00:17,379
+A helper chooses public London stations, comfortable walking and change limits, and a
+
+4
+00:00:17,379 --> 00:00:21,517
+step free routing preference. The destination remains the person's choice.
+
+5
+00:00:25,000 --> 00:00:29,980
+These are actual journey options from Transport for London. Handback checks walking and
+
+6
+00:00:29,980 --> 00:00:34,193
+changes, shows when the information was fetched, and keeps London time.
+
+7
+00:00:38,000 --> 00:00:42,662
+Review the journey before opening one instruction at a time. Large focus states
+
+8
+00:00:42,662 --> 00:00:45,531
+and a predictable remote keep the choices deliberate.
+
+9
+00:00:52,000 --> 00:00:56,760
+Play and pause reads the current instruction aloud, then stops. This emulator uses
+
+10
+00:00:56,760 --> 00:01:00,787
+local speech on the paired Mac, played through native Android audio.
+
+11
+00:01:10,000 --> 00:01:14,407
+The reviewed route is saved locally. This is a reminder, not a ticket.
+
+12
+00:01:14,407 --> 00:01:18,476
+Reopening it checks fresh travel information rather than trusting an old copy.
+
+13
+00:01:26,000 --> 00:01:31,021
+Now a separate, clearly labelled booking lab. Its fictional shuttle provider lets us
+
+14
+00:01:31,021 --> 00:01:35,269
+demonstrate transaction failures without booking a real journey or taking payment.
+
+15
+00:01:43,000 --> 00:01:48,793
+Before confirmation, the lab shows the exact passenger, pickup, destination, date, and fare.
+
+16
+00:01:48,793 --> 00:01:52,803
+Here we deliberately increase the fare after that preview.
+
+17
+00:01:58,000 --> 00:02:03,183
+The old confirmation is rejected. Only a fresh review can proceed. The browser
+
+18
+00:02:03,183 --> 00:02:07,170
+adapter then reads the provider's stored reservation before showing success.
+
+19
+00:02:23,000 --> 00:02:29,049
+The observation tool separates self tests, automation, and participants. Target user results remain
+
+20
+00:02:29,049 --> 00:02:34,167
+uncollected. A helper sets the boundaries. The person keeps the decision.

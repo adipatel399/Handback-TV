@@ -1,0 +1,104 @@
+[
+  {
+    "text": "Save",
+    "start": 0.05,
+    "end": 0.28,
+    "id": "w0"
+  },
+  {
+    "text": "the",
+    "start": 0.28,
+    "end": 0.49,
+    "id": "w1"
+  },
+  {
+    "text": "reviewed",
+    "start": 0.49,
+    "end": 1.06,
+    "id": "w2"
+  },
+  {
+    "text": "route.",
+    "start": 1.06,
+    "end": 1.64,
+    "id": "w3"
+  },
+  {
+    "text": "It",
+    "start": 1.79,
+    "end": 1.81,
+    "id": "w4"
+  },
+  {
+    "text": "is",
+    "start": 1.81,
+    "end": 1.96,
+    "id": "w5"
+  },
+  {
+    "text": "a",
+    "start": 2.05,
+    "end": 2.06,
+    "id": "w6"
+  },
+  {
+    "text": "reminder,",
+    "start": 2.06,
+    "end": 2.91,
+    "id": "w7"
+  },
+  {
+    "text": "never",
+    "start": 3.29,
+    "end": 3.35,
+    "id": "w8"
+  },
+  {
+    "text": "a",
+    "start": 3.35,
+    "end": 3.43,
+    "id": "w9"
+  },
+  {
+    "text": "ticket.",
+    "start": 3.43,
+    "end": 4,
+    "id": "w10"
+  },
+  {
+    "text": "Opening",
+    "start": 4.15,
+    "end": 4.42,
+    "id": "w11"
+  },
+  {
+    "text": "it",
+    "start": 4.42,
+    "end": 4.54,
+    "id": "w12"
+  },
+  {
+    "text": "again",
+    "start": 4.54,
+    "end": 4.82,
+    "id": "w13"
+  },
+  {
+    "text": "checks",
+    "start": 4.85,
+    "end": 5.16,
+    "id": "w14"
+  },
+  {
+    "text": "fresh",
+    "start": 5.24,
+    "end": 5.29,
+    "id": "w15"
+  },
+  {
+    "text": "information.",
+    "start": 5.65,
+    "end": 6.3,
+    "id": "w16"
+  }
+]

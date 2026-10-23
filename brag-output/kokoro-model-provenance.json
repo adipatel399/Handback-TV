@@ -1,0 +1,6 @@
+{
+  "source": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
+  "format": "original full precision float32 release",
+  "bytes": 325532387,
+  "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"
+}

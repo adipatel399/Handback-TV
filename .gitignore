@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.data/
+.tools/
+.env
+.env.*
+!.env.example
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.log
+artifacts/raw/
+.DS_Store
+devpost-overview-saved.jpg

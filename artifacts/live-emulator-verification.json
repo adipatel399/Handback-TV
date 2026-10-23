@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23T05:50:32.854Z",
+  "device": "Android TV API 33 ARM64",
+  "package": "com.handback.tv",
+  "source": "Real TfL Unified API response",
+  "viewport": {
+    "width": 960,
+    "height": 540,
+    "scrollHeight": 540
+  },
+  "input": "Actual Android D-pad Select and Media Play/Pause",
+  "speechEvents": [
+    "speaking",
+    "stopped",
+    "stopped",
+    "stopped",
+    "stopped",
+    "stopped",
+    "stopped"
+  ],
+  "nativeOfflineVoiceAvailable": false,
+  "speechFallback": "Local macOS synthesis and native Android MediaPlayer if no installed offline voice",
+  "storedRoute": {
+    "id": "ecf7576a8c9c85e30000e6b65ea53c47",
+    "savedAt": "2026-10-23T05:50:32.703Z",
+    "plan": {
+      "id": "bd5b2bb4-0179-4996-806c-342f6adab9a6",
+      "source": "tfl",
+      "origin": "King’s Cross",
+      "destination": "Green Park",
+      "destinationId": "green-park",
+      "fetchedAt": "2026-10-23T05:50:32.109Z",
+      "stale": false,
+      "timeZone": "Europe/London",
+      "preferences": {
+        "originId": "kings-cross",
+        "destinationIds": [
+          "green-park",
+          "westminster",
+          "london-bridge"
+        ],
+        "maxWalkingMinutes": 30,
+        "maxChanges": 1,
+        "stepFree": true
+      },
+      "options": [
+        {
+          "id": "c73bc9eaf0dee02b",
+          "duration": 23,
+          "walkingMinutes": 16,
+          "changes": 0,
+          "departure": "2026-10-23T06:50:00",
+          "arrival": "2026-10-23T07:13:00",
+          "legs": [
+            {
+              "instruction": "Transfer to King's Cross St. Pancras Underground Station",
+              "detail": "Transfer to King's Cross St. Pancras Underground Station",
+              "mode": "walking",
+              "duration": 9,
+              "from": "King's Cross St. Pancras Underground Station",
+              "to": "King's Cross St. Pancras Underground Station",
+              "departure": "2026-10-23T06:50:00",
+              "arrival": "2026-10-23T06:59:00",
+              "disruptions": []
+            },
+            {
+              "instruction": "Victoria line to Green Park",
+              "detail": "Victoria line towards Brixton",
+              "mode": "tube",
+              "duration": 7,
+              "from": "King's Cross St. Pancras Underground Station",
+              "to": "Green Park Underground Station",
+              "departure": "2026-10-23T06:59:00",
+              "arrival": "2026-10-23T07:06:00",
+              "disruptions": []
+            },
+            {
+              "instruction": "Walk to Green Park Station",
+              "detail": "Walk to Green Park Station",
+              "mode": "walking",
+              "duration": 7,
+              "from": "Green Park Underground Station",
+              "to": "Green Park Station",
+              "departure": "2026-10-23T07:06:00",
+              "arrival": "2026-10-23T07:13:00",
+              "disruptions": []
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "id": "cac0d92e95797f3b",
+          "duration": 23,
+          "walkingMinutes": 16,
+          "changes": 0,
+          "departure": "2026-10-23T06:52:00",
+          "arrival": "2026-10-23T07:15:00",
+          "legs": [
+            {
+              "instruction": "Transfer to King's Cross St. Pancras Underground Station",
+              "detail": "Transfer to King's Cross St. Pancras Underground Station",
+              "mode": "walking",
+              "duration": 9,
+              "from": "King's Cross St. Pancras Underground Station",
+              "to": "King's Cross St. Pancras Underground Station",
+              "departure": "2026-10-23T06:52:00",
+              "arrival": "2026-10-23T07:01:00",
+              "disruptions": []
+            },
+            {
+              "instruction": "Victoria line to Green Park",
+              "detail": "Victoria line towards Brixton",
+              "mode": "tube",
+              "duration": 7,
+              "from": "King's Cross St. Pancras Underground Station",
+              "to": "Green Park Underground Station",
+              "departure": "2026-10-23T07:01:00",
+              "arrival": "2026-10-23T07:08:00",
+              "disruptions": []
+            },
+            {
+              "instruction": "Walk to Green Park Station",
+              "detail": "Walk to Green Park Station",
+              "mode": "walking",
+              "duration": 7,
+              "from": "Green Park Underground Station",
+              "to": "Green Park Station",
+              "departure": "2026-10-23T07:08:00",
+              "arrival": "2026-10-23T07:15:00",
+              "disruptions": []
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "excludedOptions": 1,
+      "sourceUrl": "https://api.tfl.gov.uk/Journey/JourneyResults/1000129/to/1000093?journeyPreference=LeastInterchange&mode=tube%2Cbus%2Cwalking&accessibilityPreference=StepFreeToVehicle"
+    },
+    "optionId": "c73bc9eaf0dee02b"
+  },
+  "noTransportReservationMade": true
+}

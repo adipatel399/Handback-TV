@@ -1,0 +1,156 @@
+{
+  "checkedAt": "2026-10-23T05:50:52.513Z",
+  "realNetworkRequests": true,
+  "service": "TfL Unified API",
+  "preferences": {
+    "originId": "kings-cross",
+    "destinationIds": [
+      "green-park",
+      "westminster",
+      "london-bridge"
+    ],
+    "maxWalkingMinutes": 30,
+    "maxChanges": 1,
+    "stepFree": true
+  },
+  "checks": [
+    {
+      "destination": "green-park",
+      "passed": true,
+      "sourceUrl": "https://api.tfl.gov.uk/Journey/JourneyResults/1000129/to/1000093?journeyPreference=LeastInterchange&mode=tube%2Cbus%2Cwalking&accessibilityPreference=StepFreeToVehicle",
+      "checkedAt": "2026-10-23T05:50:28.390Z",
+      "milliseconds": 1443,
+      "optionsReturnedWithinLimits": 2,
+      "excludedOptions": 1,
+      "allWithinLimits": true,
+      "firstOption": {
+        "id": "c73bc9eaf0dee02b",
+        "duration": 23,
+        "walkingMinutes": 16,
+        "changes": 0,
+        "departure": "2026-10-23T06:50:00",
+        "arrival": "2026-10-23T07:13:00",
+        "legs": [
+          {
+            "instruction": "Transfer to King's Cross St. Pancras Underground Station",
+            "detail": "Transfer to King's Cross St. Pancras Underground Station",
+            "mode": "walking",
+            "duration": 9,
+            "from": "King's Cross St. Pancras Underground Station",
+            "to": "King's Cross St. Pancras Underground Station",
+            "departure": "2026-10-23T06:50:00",
+            "arrival": "2026-10-23T06:59:00",
+            "disruptions": []
+          },
+          {
+            "instruction": "Victoria line to Green Park",
+            "detail": "Victoria line towards Brixton",
+            "mode": "tube",
+            "duration": 7,
+            "from": "King's Cross St. Pancras Underground Station",
+            "to": "Green Park Underground Station",
+            "departure": "2026-10-23T06:59:00",
+            "arrival": "2026-10-23T07:06:00",
+            "disruptions": []
+          },
+          {
+            "instruction": "Walk to Green Park Station",
+            "detail": "Walk to Green Park Station",
+            "mode": "walking",
+            "duration": 7,
+            "from": "Green Park Underground Station",
+            "to": "Green Park Station",
+            "departure": "2026-10-23T07:06:00",
+            "arrival": "2026-10-23T07:13:00",
+            "disruptions": []
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "destination": "westminster",
+      "passed": true,
+      "sourceUrl": "https://api.tfl.gov.uk/Journey/JourneyResults/1000129/to/1000266?journeyPreference=LeastInterchange&mode=tube%2Cbus%2Cwalking&accessibilityPreference=StepFreeToVehicle",
+      "checkedAt": "2026-10-23T05:50:32.233Z",
+      "milliseconds": 3842,
+      "optionsReturnedWithinLimits": 2,
+      "excludedOptions": 1,
+      "allWithinLimits": true,
+      "firstOption": {
+        "id": "66e612890276a3d7",
+        "duration": 38,
+        "walkingMinutes": 18,
+        "changes": 1,
+        "departure": "2026-10-23T06:49:00",
+        "arrival": "2026-10-23T07:27:00",
+        "legs": [
+          {
+            "instruction": "Transfer to King's Cross St. Pancras Underground Station",
+            "detail": "Transfer to King's Cross St. Pancras Underground Station",
+            "mode": "walking",
+            "duration": 6,
+            "from": "King's Cross St. Pancras Underground Station",
+            "to": "King's Cross St. Pancras Underground Station",
+            "departure": "2026-10-23T06:49:00",
+            "arrival": "2026-10-23T06:55:00",
+            "disruptions": []
+          },
+          {
+            "instruction": "Piccadilly line to Green Park",
+            "detail": "Piccadilly line towards Heathrow Terminal 5",
+            "mode": "tube",
+            "duration": 10,
+            "from": "King's Cross St. Pancras Underground Station",
+            "to": "Green Park Underground Station",
+            "departure": "2026-10-23T06:55:00",
+            "arrival": "2026-10-23T07:05:00",
+            "disruptions": [
+              "Piccadilly Line: No service between Rayners Lane and Uxbridge due to a signal failure at Leicester Square. Please use the Metropolitan line between Rayners Lane and Uxbridge. Tickets are being accepted on London Buses. MINOR DELAYS on the rest of the line.",
+              "This leg is reported disrupted. Check current service information before travelling."
+            ]
+          },
+          {
+            "instruction": "Jubilee line to Westminster",
+            "detail": "Jubilee line towards Stratford",
+            "mode": "tube",
+            "duration": 3,
+            "from": "Green Park Underground Station",
+            "to": "Westminster Underground Station",
+            "departure": "2026-10-23T07:12:00",
+            "arrival": "2026-10-23T07:15:00",
+            "disruptions": []
+          },
+          {
+            "instruction": "Walk to Westminster Station",
+            "detail": "Walk to Westminster Station",
+            "mode": "walking",
+            "duration": 12,
+            "from": "Westminster Underground Station",
+            "to": "Westminster Station",
+            "departure": "2026-10-23T07:15:00",
+            "arrival": "2026-10-23T07:27:00",
+            "disruptions": []
+          }
+        ],
+        "warnings": [
+          "Piccadilly Line: No service between Rayners Lane and Uxbridge due to a signal failure at Leicester Square. Please use the Metropolitan line between Rayners Lane and Uxbridge. Tickets are being accepted on London Buses. MINOR DELAYS on the rest of the line.",
+          "This leg is reported disrupted. Check current service information before travelling."
+        ]
+      }
+    },
+    {
+      "destination": "london-bridge",
+      "passed": true,
+      "sourceUrl": "https://api.tfl.gov.uk/Journey/JourneyResults/1000129/to/1000140?journeyPreference=LeastInterchange&mode=tube%2Cbus%2Cwalking&accessibilityPreference=StepFreeToVehicle",
+      "checkedAt": "2026-10-23T05:50:52.513Z",
+      "milliseconds": 20280,
+      "optionsReturnedWithinLimits": 0,
+      "excludedOptions": 2,
+      "allWithinLimits": true,
+      "firstOption": null
+    }
+  ],
+  "noReservationMade": true,
+  "caveat": "A point-in-time API integration check, not a real journey or user study. A zero-option result can be valid under the configured constraints."
+}

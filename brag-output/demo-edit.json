@@ -1,0 +1,120 @@
+{
+  "duration": 133.125,
+  "voice": "af_heart",
+  "syntheticNarration": true,
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "duration": 5.625,
+      "title": "A familiar remote.",
+      "voice": "The hardest part of a simple journey should not be asking someone else to plan it.",
+      "audioDuration": 4.309333
+    },
+    {
+      "id": "reveal",
+      "start": 5.625,
+      "duration": 9.375,
+      "title": "Their own decision.",
+      "voice": "Handback TV puts that decision on a familiar remote. A helper sets the boundaries. The person chooses where to go.",
+      "audioDuration": 7.445333
+    },
+    {
+      "id": "setup",
+      "start": 15.0,
+      "duration": 9.375,
+      "title": "A little setup. A lot more freedom.",
+      "voice": "Choose familiar stations, a comfortable walking limit, and the number of changes. Request step free routing, with its limits clearly explained.",
+      "audioDuration": 8.661333
+    },
+    {
+      "id": "choose",
+      "start": 24.375,
+      "duration": 9.375,
+      "title": "The person takes over.",
+      "voice": "Now, the person takes over. Choose Green Park with the D pad. No keyboard. No phone. One clear decision.",
+      "audioDuration": 6.997333
+    },
+    {
+      "id": "routes",
+      "start": 33.75,
+      "duration": 11.25,
+      "title": "Real routes. Comfortable limits.",
+      "voice": "These journey options come from Transport for London, live. Walking and changes stay within the helper’s limits. The source and freshness stay visible.",
+      "audioDuration": 9.109333
+    },
+    {
+      "id": "steps",
+      "start": 45.0,
+      "duration": 9.375,
+      "title": "One clear step at a time.",
+      "voice": "Review the route, then take it one instruction at a time. Where to walk. Which line to take. Which direction to travel.",
+      "audioDuration": 6.997333
+    },
+    {
+      "id": "voice",
+      "start": 54.375,
+      "duration": 9.375,
+      "title": "Read it. Hear it. Stop it.",
+      "voice": "Play and pause reads the current instruction, and stops on request. Large focus states keep the next action clear.",
+      "audioDuration": 7.189333
+    },
+    {
+      "id": "saved",
+      "start": 63.75,
+      "duration": 7.5,
+      "title": "A reminder. Never a ticket.",
+      "voice": "Save the reviewed route. It is a reminder, never a ticket. Opening it again checks fresh information.",
+      "audioDuration": 6.272
+    },
+    {
+      "id": "runtime",
+      "start": 71.25,
+      "duration": 11.25,
+      "title": "Built for the remote.",
+      "voice": "Underneath, a native Android launcher connects remote input and audio to a small web interface. The private Azure preview runs without the laptop.",
+      "audioDuration": 9.578667
+    },
+    {
+      "id": "lab",
+      "start": 82.5,
+      "duration": 9.375,
+      "title": "What if the terms change?",
+      "voice": "And here is the part polished demos usually skip. A separate fictional booking lab tests what happens when the terms change after you review them.",
+      "audioDuration": 8.768
+    },
+    {
+      "id": "change",
+      "start": 91.875,
+      "duration": 11.25,
+      "title": "A new price needs a new yes.",
+      "voice": "We deliberately raise the fare. Handback rejects the old confirmation and asks for a fresh review. It will not quietly agree to a different price.",
+      "audioDuration": 9.408
+    },
+    {
+      "id": "receipt",
+      "start": 103.125,
+      "duration": 11.25,
+      "title": "Success needs a receipt.",
+      "voice": "Only then does the browser adapter submit. It reads the provider’s stored receipt before showing success. If the outcome is unknown, another booking is blocked.",
+      "audioDuration": 9.962667
+    },
+    {
+      "id": "proof",
+      "start": 114.375,
+      "duration": 11.25,
+      "title": "Built. Tested. Still learning.",
+      "voice": "Thirty three automated tests and real emulator checks support this prototype. Testing with older adults is the next step. No user results are invented.",
+      "audioDuration": 10.197333
+    },
+    {
+      "id": "outro",
+      "start": 125.625,
+      "duration": 7.5,
+      "title": "Give the everyday back.",
+      "voice": "A helper sets the boundaries. The person keeps the decision. Handback TV. Give the everyday back.",
+      "audioDuration": 6.421333
+    }
+  ],
+  "style": "User-directed energetic beat cut; landscape judging edit"
+}

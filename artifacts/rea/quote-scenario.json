@@ -1,0 +1,37 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/Users/aditya/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:4310/provider/book?passenger=Arun&pickup=12%20Willow%20Lane&destinationId=library&date=2026-10-23"
+  },
+  "actions": [
+    {
+      "step_id": "review-current-trip",
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": ".provider-form button"
+      },
+      "timeout_ms": 10000
+    },
+    {
+      "step_id": "quote-visible",
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"provider-quote\"]"
+      },
+      "state": "visible",
+      "timeout_ms": 10000
+    }
+  ],
+  "capture": {
+    "at_end": [
+      "dom",
+      "accessibility",
+      "url"
+    ]
+  }
+}

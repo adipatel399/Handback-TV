@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23T07:01:55.047Z",
+  "url": "https://handback-tv-cb7fb9.koreacentral.cloudapp.azure.com",
+  "checks": [
+    "public HTTPS certificate validated",
+    "anonymous helper bootstrap and booking history blocked",
+    "private login and secure HttpOnly SameSite session",
+    "authenticated TV opens without laptop pairing",
+    "actual Linux speech returns WAV",
+    "real TfL journey on Azure",
+    "local persistent route save",
+    "Playwright reference booking and stored receipt on Azure",
+    "helper dashboard"
+  ],
+  "speechEngine": "local eSpeak NG",
+  "browserErrors": [],
+  "caveat": "Private single-household preview with shared reviewer access; this is functional verification, not target-user validation."
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "device": "Android TV API 33 arm64-v8a",
+  "package": "com.handback.tv",
+  "viewport": {
+    "width": 960,
+    "height": 540,
+    "scrollWidth": 960,
+    "scrollHeight": 540
+  },
+  "primaryInputs": "Android KEYCODE_DPAD_RIGHT, KEYCODE_DPAD_DOWN, KEYCODE_DPAD_CENTER",
+  "setup": "Actual native Menu → Pair television dialog, native text entry, Pair button, and WebView bridge",
+  "receipt": {
+    "passenger": "Arun",
+    "pickup": "12 Willow Lane",
+    "destinationId": "garden",
+    "destination": "Community Garden",
+    "date": "2026-10-24",
+    "time": "10:15",
+    "fare": 60,
+    "currency": "INR",
+    "version": 1,
+    "reference": "WL-54DED96F",
+    "requestId": "0960856c-57c6-4974-a8fe-e9c22d202d63",
+    "createdAt": "2026-10-23T05:52:48.583Z",
+    "verifiedAt": "2026-10-23T05:52:48.691Z"
+  }
+}

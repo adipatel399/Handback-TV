@@ -1,0 +1,15 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.handback.tv'
+    compileSdk 34
+    buildFeatures { buildConfig true }
+    defaultConfig {
+        def cloudOrigin = System.getenv('HANDBACK_APP_ORIGIN')
+        if(cloudOrigin && !(cloudOrigin ==~ /^https:\/\/[a-z0-9.-]+\.cloudapp\.azure\.com$/)) throw new GradleException('Unsupported Azure preview origin')
+        applicationId cloudOrigin ? 'com.handback.tv.cloud' : 'com.handback.tv'
+        buildConfigField 'String', 'DEFAULT_ORIGIN', '"' + (cloudOrigin ?: 'http://10.0.2.2:4310') + '"'
+        manifestPlaceholders = [appLabel: cloudOrigin ? 'Handback TV Preview' : 'Handback TV']
+         minSdk 26; targetSdk 34; versionCode 1; versionName '1.0.0' }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { debug { debuggable true }; release { minifyEnabled false } }
+}

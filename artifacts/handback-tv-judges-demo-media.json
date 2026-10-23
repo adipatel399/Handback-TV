@@ -1,0 +1,40 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "avg_frame_rate": "30/1",
+      "nb_frames": "3994"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "avg_frame_rate": "0/0",
+      "nb_frames": "6242"
+    }
+  ],
+  "format": {
+    "duration": "133.133333",
+    "size": "9118744"
+  },
+  "qualityChecks": {
+    "landscape1080p": true,
+    "withinRequested2to2_5minutes": true,
+    "fps": 30,
+    "frames": 3994,
+    "integratedLoudnessLUFS": -15.09,
+    "truePeakDBTP": -1.68,
+    "musicGainDuringNarration": 0.11,
+    "musicGainBetweenPhrases": 0.33,
+    "humanListeningCompleted": false,
+    "posterBakedIntoFrameZero": true,
+    "hyperframesCheckErrors": 0,
+    "publishingPerformed": false
+  }
+}

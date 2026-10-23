@@ -1,0 +1,185 @@
+
+> handback-tv@1.0.0 test
+> node --import tsx --test --test-concurrency=1 tests/*.test.ts
+
+TAP version 13
+# (node:15095) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: cloud mode rejects weak credentials and non-HTTPS origins
+ok 1 - cloud mode rejects weak credentials and non-HTTPS origins
+  ---
+  duration_ms: 0.39925
+  ...
+# Subtest: cloud preview protects bootstrap and data, authenticates cookie sessions, and retains internal browser access
+ok 2 - cloud preview protects bootstrap and data, authenticates cookie sessions, and retains internal browser access
+  ---
+  duration_ms: 41.313708
+  ...
+# (node:15101) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: live integration uses only allowlisted public stations, accessibility request, and coalesces/cache calls
+ok 3 - live integration uses only allowlisted public stations, accessibility request, and coalesces/cache calls
+  ---
+  duration_ms: 19.006083
+  ...
+# Subtest: walking and change limits are never silently relaxed
+ok 4 - walking and change limits are never silently relaxed
+  ---
+  duration_ms: 0.453459
+  ...
+# Subtest: upstream failure returns visibly stale data for at most five minutes, then fails closed
+ok 5 - upstream failure returns visibly stale data for at most five minutes, then fails closed
+  ---
+  duration_ms: 0.618041
+  ...
+# Subtest: malformed provider responses, unsupported destinations, and redirects are not invented into routes
+ok 6 - malformed provider responses, unsupported destinations, and redirects are not invented into routes
+  ---
+  duration_ms: 0.519916
+  ...
+# Subtest: London wall-clock times are preserved regardless of the laptop zone
+ok 7 - London wall-clock times are preserved regardless of the laptop zone
+  ---
+  duration_ms: 0.115459
+  ...
+# Subtest: journey API requires pairing, validates settings, stores idempotently, and blocks saving after helper changes
+ok 8 - journey API requires pairing, validates settings, stores idempotently, and blocks saving after helper changes
+  ---
+  duration_ms: 29.571625
+  ...
+# Subtest: study observations distinguish automation, require consent, and cannot call assisted completion independent
+ok 9 - study observations distinguish automation, require consent, and cannot call assisted completion independent
+  ---
+  duration_ms: 2.172834
+  ...
+# Subtest: fresh API requests are bounded even when preferences vary
+ok 10 - fresh API requests are bounded even when preferences vary
+  ---
+  duration_ms: 1.486875
+  ...
+# Subtest: updated helper limits invalidate an in-flight result and observation start requires explicit consent
+ok 11 - updated helper limits invalidate an in-flight result and observation start requires explicit consent
+  ---
+  duration_ms: 9.795917
+  ...
+# Subtest: local speech requires pairing, generates actual WAV bytes, and exposes only an expiring media capability
+ok 12 - local speech requires pairing, generates actual WAV bytes, and exposes only an expiring media capability
+  ---
+  duration_ms: 963.698792
+  ...
+# (node:15111) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: state and task creation require a paired session
+ok 13 - state and task creation require a paired session
+  ---
+  duration_ms: 35.095125
+  ...
+# Subtest: one-use pairing creates a TV token without granting helper access
+ok 14 - one-use pairing creates a TV token without granting helper access
+  ---
+  duration_ms: 5.842208
+  ...
+# Subtest: TV host cannot bootstrap the helper token
+ok 15 - TV host cannot bootstrap the helper token
+  ---
+  duration_ms: 2.331375
+  ...
+# Subtest: untrusted origins and DNS-rebinding hosts are rejected
+ok 16 - untrusted origins and DNS-rebinding hosts are rejected
+  ---
+  duration_ms: 2.61975
+  ...
+# Subtest: a reservation is only successful after exact stored receipt verification
+ok 17 - a reservation is only successful after exact stored receipt verification
+  ---
+  duration_ms: 759.820084
+  ...
+# Subtest: fare changes invalidate the original confirmation and require a fresh token
+ok 18 - fare changes invalidate the original confirmation and require a fresh token
+  ---
+  duration_ms: 811.539916
+  ...
+# Subtest: a higher fare cannot bypass the helper spending limit
+ok 19 - a higher fare cannot bypass the helper spending limit
+  ---
+  duration_ms: 341.569583
+  ...
+# Subtest: a stale confirmation time is refreshed without submitting
+ok 20 - a stale confirmation time is refreshed without submitting
+  ---
+  duration_ms: 343.822916
+  ...
+# Subtest: concurrent and repeated confirmation cannot create duplicate bookings
+ok 21 - concurrent and repeated confirmation cannot create duplicate bookings
+  ---
+  duration_ms: 642.657375
+  ...
+# Subtest: a lost submit response is reconciled through the provider history UI
+ok 22 - a lost submit response is reconciled through the provider history UI
+  ---
+  duration_ms: 640.69875
+  ...
+# Subtest: unavailable history produces uncertainty, blocks new writes, and can be checked later
+ok 23 - unavailable history produces uncertainty, blocks new writes, and can be checked later
+  ---
+  duration_ms: 702.108875
+  ...
+# Subtest: an earlier draft cannot bypass a different unresolved booking
+ok 24 - an earlier draft cannot bypass a different unresolved booking
+  ---
+  duration_ms: 851.026584
+  ...
+# Subtest: helper permissions cannot be mutated during an in-flight write
+ok 25 - helper permissions cannot be mutated during an in-flight write
+  ---
+  duration_ms: 188.362833
+  ...
+# Subtest: a provider failure before submit is failed, not an unrecoverable unknown
+ok 26 - a provider failure before submit is failed, not an unrecoverable unknown
+  ---
+  duration_ms: 12446.148291
+  ...
+# Subtest: changed helper permissions invalidate an earlier trip review
+ok 27 - changed helper permissions invalidate an earlier trip review
+  ---
+  duration_ms: 171.331375
+  ...
+# Subtest: expired capability and destinations outside scope are rejected
+ok 28 - expired capability and destinations outside scope are rejected
+  ---
+  duration_ms: 2.001583
+  ...
+# Subtest: a draft can be cancelled; a stored booking cannot be falsely cancelled
+ok 29 - a draft can be cancelled; a stored booking cannot be falsely cancelled
+  ---
+  duration_ms: 809.773625
+  ...
+# Subtest: the provider atomically rejects an outdated quote and preserves request idempotency
+ok 30 - the provider atomically rejects an outdated quote and preserves request idempotency
+  ---
+  duration_ms: 1.351541
+  ...
+# Subtest: the second supported portal layout completes the same verified workflow
+ok 31 - the second supported portal layout completes the same verified workflow
+  ---
+  duration_ms: 697.577625
+  ...
+# Subtest: twenty representative destination/date cases read valid current terms
+ok 32 - twenty representative destination/date cases read valid current terms
+  ---
+  duration_ms: 3433.731041
+  ...
+# Subtest: restarting after an interrupted submission preserves an unknown outcome
+ok 33 - restarting after an interrupted submission preserves an unknown outcome
+  ---
+  duration_ms: 187.59525
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 25155.772625

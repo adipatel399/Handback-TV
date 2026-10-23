@@ -1,0 +1,1188 @@
+{
+  "project": "Handback TV",
+  "kind": "local review package",
+  "excludes": "SDKs, browser downloads, node_modules, local databases/tokens, private config, build caches, raw media, Git history",
+  "fileCount": 236,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 133,
+      "sha256": "53a430ef75a6e291e79568bdf5e8057cc1ed616aca2cb6e9ea1a74c3353b2c6c"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 489,
+      "sha256": "fb62eb24eaaed1af57fba1f08e4ff3e5c8577958bb94f670baaf59f2a36367b9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 195,
+      "sha256": "862c8bcb11cf8e2e2f837d9c9803f990eb7c3cba0ba21d39429e9d5072d33320"
+    },
+    {
+      "path": "DEMO_SCRIPT.md",
+      "bytes": 1481,
+      "sha256": "98c5b0e45a5f2e0bc27a3516b9880705e000846805625924e38ea4cba59c1fca"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 694,
+      "sha256": "ed749f2d077bd263155d4a9dce7289c886e45831cd20ad479c3d7fd0dde487c9"
+    },
+    {
+      "path": "FRICTION_LOG.md",
+      "bytes": 5136,
+      "sha256": "3e39f8c2ede8805c8d8e23a6397b84b58dd80e3e2556a3730e0996c2481992ba"
+    },
+    {
+      "path": "HANDBACK_PLAN.md",
+      "bytes": 18367,
+      "sha256": "31aa9c4dbd2550b6dc4c87b897dab97bf89392bab80b4938e13b0dee49c3a0a9"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1081,
+      "sha256": "cfd19c8d2776ba4f3f7a1f4fe3f818fbb470ebc620444649e577a37ed648122f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16428,
+      "sha256": "fecfbbc7307fc15921854c47a80f42b59ae77fb5a6d1a2d17b8a205cdd62a662"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2823,
+      "sha256": "afd83591817e9e635188f621429b82cecf1810f88fd31a623c35c790da7e4b7e"
+    },
+    {
+      "path": "android/app/build.gradle",
+      "bytes": 920,
+      "sha256": "686d2880d10da8cf3b27ae701072ef05b4917a1485bb4690683a7f4f8349fcc5"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "bytes": 1076,
+      "sha256": "764019312b919bae72bd44e2716dc0dbc92102b4dba51ecf3b419e6932f2a766"
+    },
+    {
+      "path": "android/app/src/main/java/com/handback/tv/MainActivity.java",
+      "bytes": 10236,
+      "sha256": "66abaf805dc33c16202f93423ddc91868fa167876dbb65b40ddffca09feb6405"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/app_icon.xml",
+      "bytes": 533,
+      "sha256": "fd09f33ffd1c148507036128ed78878d678574b9769547ca4060158b86c4b290"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/tv_banner.xml",
+      "bytes": 537,
+      "sha256": "1b9a1cea3924093911be996b26adcf28c654860ce83ad9c7c11090e2bafbca39"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "bytes": 406,
+      "sha256": "d96f3802b72b1efe9315f4b9481a745a2359c769e85c02b01099562798d5923f"
+    },
+    {
+      "path": "android/app/src/main/res/xml/network_security_config.xml",
+      "bytes": 241,
+      "sha256": "f2196f61ffc4a4bd05160bf011f8d97c1fbf7dabecb746d5a9035e7f44c318ce"
+    },
+    {
+      "path": "android/build.gradle",
+      "bytes": 69,
+      "sha256": "8ebf0602839be8fd4c06f07a93e45da6b4a04444fa1b38df8b9def9c1b5c8032"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 43504,
+      "sha256": "498495120a03b9a6ab5d155f5de3c8f0d986a449153702fb80fc80e134484f17"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 250,
+      "sha256": "3d91f0932da99885c41e9dc4e85c9f9a2d3bfef4f0ad87473014dc0827a94884"
+    },
+    {
+      "path": "android/gradle.properties",
+      "bytes": 101,
+      "sha256": "ece37fb746cbdc858afd70e1a03f355799d0510f5566ad0895fcbf24a1bb6918"
+    },
+    {
+      "path": "android/gradlew",
+      "bytes": 8762,
+      "sha256": "a3648413b47ef77af21d5ebc36c687c7d103aaef3e17f33de7d4f080a6f300a3"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "bytes": 2966,
+      "sha256": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f"
+    },
+    {
+      "path": "android/settings.gradle",
+      "bytes": 271,
+      "sha256": "f127dbff2396ad7c0c7a94987989675a204f843aa90688996925760310b97214"
+    },
+    {
+      "path": "artifacts/azure-emulator-verification.json",
+      "bytes": 5119,
+      "sha256": "a914482e6fcdcaf5b797790f01a30b5e65267cdfe1540a8e2dc8afd7bee7da89"
+    },
+    {
+      "path": "artifacts/azure-verification.json",
+      "bytes": 760,
+      "sha256": "e18cfe74de6e5ac77d4f9401bfb5b201decb4d93d38b7d8ebf51d91f07f947bc"
+    },
+    {
+      "path": "artifacts/demo-captions.srt",
+      "bytes": 2202,
+      "sha256": "770b599cc81afbe6915281e8affa9d1b510ecfde32aefabcf6ec31ea6de78a7c"
+    },
+    {
+      "path": "artifacts/demo-media-verification.json",
+      "bytes": 398,
+      "sha256": "62b4c263c71b3b0fa8ab403fe0abee4459f29e13d6f5a616e542a76d4c01a873"
+    },
+    {
+      "path": "artifacts/demo-transcript.txt",
+      "bytes": 1601,
+      "sha256": "54898ecaf99d0b40755a238af657764e28f29bb228cc6280455fcc4228c4eb60"
+    },
+    {
+      "path": "artifacts/emulator-verification.json",
+      "bytes": 832,
+      "sha256": "cabc73ced5ac24aa340d29bb25649c8c575998bd991a34f7d1f59b5fe307349c"
+    },
+    {
+      "path": "artifacts/handback-tv-cloud-debug.apk",
+      "bytes": 19645,
+      "sha256": "777917ccd73956f64fbc0486ec14f27f6bae2cd5c54a69524c7c5dbc7f8266af"
+    },
+    {
+      "path": "artifacts/handback-tv-debug.apk",
+      "bytes": 19625,
+      "sha256": "113f77d4c05c7622db1c3dae450d3d148c5ad031be08dc6b3b7dbfa8eb39de02"
+    },
+    {
+      "path": "artifacts/handback-tv-demo-review.mp4",
+      "bytes": 3381905,
+      "sha256": "13be0259dc246e4e7f934c2ae162710f4184652d8397d9ade7740fe471a728ab"
+    },
+    {
+      "path": "artifacts/handback-tv-judges-demo-media.json",
+      "bytes": 880,
+      "sha256": "5c344cfa819d59c2c5ab67b80f583ddc0c4717fb005934fc37b713a12ed86276"
+    },
+    {
+      "path": "artifacts/handback-tv-judges-demo.jpg",
+      "bytes": 226135,
+      "sha256": "861216f07d455c78944aab44e70dd1d32937ca360835d48b03e50c7aae26dd54"
+    },
+    {
+      "path": "artifacts/handback-tv-judges-demo.mp4",
+      "bytes": 9118744,
+      "sha256": "4f5466d3c1245c9e03a5a866a576299948c74ee44e0a11443dd77da3fc034702"
+    },
+    {
+      "path": "artifacts/handback-tv-judges-demo.srt",
+      "bytes": 4383,
+      "sha256": "41f2d309817f8ce431853ab987d7c04ebd097724500b50bbfea8ca48e06b7384"
+    },
+    {
+      "path": "artifacts/handback-tv-video-description.txt",
+      "bytes": 1323,
+      "sha256": "0f801a74eaa6e4825737e54012d459ab38ead64bdee6415eec1b6b788a275d79"
+    },
+    {
+      "path": "artifacts/input-evaluation.json",
+      "bytes": 2496,
+      "sha256": "7cca095797be70a73506c2b33ff709db4e39bff363d088a760bc05a80bfc8cbe"
+    },
+    {
+      "path": "artifacts/journey-ui-verification.json",
+      "bytes": 465,
+      "sha256": "5102e4e6cad7bd22dbf6028f145c78838f1b378ee4eb7f852c5b3551e83b05f6"
+    },
+    {
+      "path": "artifacts/live-emulator-verification.json",
+      "bytes": 5018,
+      "sha256": "317024c583d3e8cae84d2134db7ce0a3f9df3acda8ba48af42d4c77c5823471b"
+    },
+    {
+      "path": "artifacts/live-tfl-verification.json",
+      "bytes": 6345,
+      "sha256": "3d93184afa94e208549a9a5620b50fc4cf95654af83bcd8d3387eb4c97d9d75a"
+    },
+    {
+      "path": "artifacts/rea/quote-evidence.json",
+      "bytes": 13194,
+      "sha256": "0a83ede0321ebf571bbfb9a20e6170775e235b784bf7951a331d5a511e7d32a2"
+    },
+    {
+      "path": "artifacts/rea/quote-scenario.json",
+      "bytes": 905,
+      "sha256": "17c8208f421000b4abbf0d11813683b59624edb5643822e0c8d14968a51cb206"
+    },
+    {
+      "path": "artifacts/screenshots/azure-emulator-home.png",
+      "bytes": 379425,
+      "sha256": "3d9e84462df2ec83e4c52f64aae13fa582e9292121cc1e9f2afef166bd14f4b4"
+    },
+    {
+      "path": "artifacts/screenshots/azure-emulator-read-aloud.png",
+      "bytes": 380861,
+      "sha256": "cb94bf0298dc3652c693e97b21677c00bdad9d64df3de4e1fc912d5af28f6077"
+    },
+    {
+      "path": "artifacts/screenshots/azure-emulator-review.png",
+      "bytes": 348664,
+      "sha256": "bc78c2ba4b992a882ecbee3fda66cda1c6798ddcbd8571b59131c639e4b2b142"
+    },
+    {
+      "path": "artifacts/screenshots/azure-emulator-routes.png",
+      "bytes": 332906,
+      "sha256": "ca3edf2bf740b5a5361e78fb12eaad23ea8375647de98ded0df9333bc7eec557"
+    },
+    {
+      "path": "artifacts/screenshots/azure-emulator-saved.png",
+      "bytes": 327650,
+      "sha256": "ad4e5eb82d29c550cc0142b21204f860c029b2413964317c31e85112ae3b0642"
+    },
+    {
+      "path": "artifacts/screenshots/azure-emulator-step.png",
+      "bytes": 339905,
+      "sha256": "3491f06a6702c7bef3044174925ee2f1c51d3ecdd6b7cbd5101139dbd0ae5d81"
+    },
+    {
+      "path": "artifacts/screenshots/azure-helper.png",
+      "bytes": 152599,
+      "sha256": "d69cfff84648fb1aa1c2810bd2a13b107d2e7830db476c93dbdea88792f4fb81"
+    },
+    {
+      "path": "artifacts/screenshots/azure-live-home.png",
+      "bytes": 290895,
+      "sha256": "9385683319a93c91a22e91ca43fa28ce8aca40a6ec53911ed4aa6e8e9849eab4"
+    },
+    {
+      "path": "artifacts/screenshots/azure-reference-receipt.png",
+      "bytes": 286209,
+      "sha256": "674e69acc4b87c4d27f4db05e2f891052c540c2305302f73ceafc519e4635aa6"
+    },
+    {
+      "path": "artifacts/screenshots/azure-route-saved.png",
+      "bytes": 298386,
+      "sha256": "c10dc8f5020cd17f16ab5d3f0275254844dea1b7e676a11d53ffde184c27d947"
+    },
+    {
+      "path": "artifacts/screenshots/demo-upgrade-120s.png",
+      "bytes": 369329,
+      "sha256": "5ebadd88712f6742a31142884ee0ce75f986100aeea64f1e30e9399051abecec"
+    },
+    {
+      "path": "artifacts/screenshots/demo-upgrade-53s.png",
+      "bytes": 389941,
+      "sha256": "18807ad8e20570dc0bfce8cf4afcdc45d412afb8801f52963e08c9d16ba6fd95"
+    },
+    {
+      "path": "artifacts/screenshots/emulator-choose-day.png",
+      "bytes": 324090,
+      "sha256": "04abb3ce439852c3297cde81607701be4a20a4e473d3634cc7ae49cfaaa2cd39"
+    },
+    {
+      "path": "artifacts/screenshots/emulator-home.png",
+      "bytes": 335651,
+      "sha256": "1061ba4ba30014ccd7846143cbaeb1bebe09b7d2235c1676ec4e4c6533b1de3c"
+    },
+    {
+      "path": "artifacts/screenshots/emulator-review.png",
+      "bytes": 345067,
+      "sha256": "461a94f3ec1dab838acf7bd0eeca90173cd5806f5f160f4df7d2a5c89a744d3b"
+    },
+    {
+      "path": "artifacts/screenshots/emulator-verified.png",
+      "bytes": 334939,
+      "sha256": "b93de2a9aa3fd63347a35fe5ea87c73675400acb773b6eb3e34cf4d8fecccf71"
+    },
+    {
+      "path": "artifacts/screenshots/helper-live-setup.png",
+      "bytes": 106702,
+      "sha256": "5aa23c32b52d8678aae847ce37ad1330e5a691b58c73f01584ecdfb7be374ed9"
+    },
+    {
+      "path": "artifacts/screenshots/helper-overview.png",
+      "bytes": 134961,
+      "sha256": "b555ce4ccb77bff8ff818d3aa14951b4e5620a3db1de30ebbe11ae3ae2f570cd"
+    },
+    {
+      "path": "artifacts/screenshots/helper-study.png",
+      "bytes": 146156,
+      "sha256": "b11a03448904f736d2cc4eddf08181357865246c39185f758cc918d77cd11139"
+    },
+    {
+      "path": "artifacts/screenshots/helper-task.png",
+      "bytes": 121574,
+      "sha256": "7ddc4a42330b4d2f29ee386ece91d5a464bd482a2bb461dac10a36b566044793"
+    },
+    {
+      "path": "artifacts/screenshots/live-emulator-home.png",
+      "bytes": 378508,
+      "sha256": "3c412ebd0421d7ef5b5d82a83c1c61ad7ddce38487fe3a614123710c8d8bfa46"
+    },
+    {
+      "path": "artifacts/screenshots/live-emulator-read-aloud.png",
+      "bytes": 380027,
+      "sha256": "2d41e05abe94e37859623b17a0493264062c235dbf38a3932d48c3412a07e7df"
+    },
+    {
+      "path": "artifacts/screenshots/live-emulator-review.png",
+      "bytes": 348724,
+      "sha256": "a9f03f3132ec275a4e61187ceaddf3ed26117b8af028c9672f81998cc5f43e37"
+    },
+    {
+      "path": "artifacts/screenshots/live-emulator-routes.png",
+      "bytes": 333267,
+      "sha256": "6fe7d3f1b4cef1ba21d76f59252273d8fb1ef0dd9aca57cee549df4f7f5ba6c7"
+    },
+    {
+      "path": "artifacts/screenshots/live-emulator-saved.png",
+      "bytes": 327847,
+      "sha256": "10b51831cf4c0bdf3936348e7bf55b64e93313dea54e2cc10b50592dead35af6"
+    },
+    {
+      "path": "artifacts/screenshots/live-emulator-step.png",
+      "bytes": 340080,
+      "sha256": "7bb4d7edc095c1e82b02c2ac67cda9d87354a9385b38caa3a2acb254da3e9883"
+    },
+    {
+      "path": "artifacts/screenshots/live-home.png",
+      "bytes": 156501,
+      "sha256": "ef12cca017bf0b1b971e0d767419bd5307c65ec5fdb591746bbbf618cfcb6c59"
+    },
+    {
+      "path": "artifacts/screenshots/live-westminster.png",
+      "bytes": 169668,
+      "sha256": "41a37994c7fb2ee4a443327cb5b8f8be9b691f805670588595cc04114fc4346b"
+    },
+    {
+      "path": "artifacts/screenshots/tv-changed-fare.png",
+      "bytes": 285009,
+      "sha256": "85c5f9b8154a47b3880a3fc00ed36db9dcfc1355bc9c52be2c37a0c45ea789c1"
+    },
+    {
+      "path": "artifacts/screenshots/tv-choose-day.png",
+      "bytes": 271351,
+      "sha256": "a5cafda509fb8d75959511279e18239af7212f6d82646df43bf914cdb54a9262"
+    },
+    {
+      "path": "artifacts/screenshots/tv-home.png",
+      "bytes": 293938,
+      "sha256": "241a4ad6e7af4214d656857379aa86cc2df566855d49e6c0e91a99af3bd4d235"
+    },
+    {
+      "path": "artifacts/screenshots/tv-review.png",
+      "bytes": 291977,
+      "sha256": "f39e18b1208e282f798007ff5d7ef28313cf019f95eb70a727c08be28278eb45"
+    },
+    {
+      "path": "artifacts/screenshots/tv-verified.png",
+      "bytes": 285649,
+      "sha256": "8a697d54cf53386cb69895662021f8ab5e05a05585e3b92d8b436258b491d01b"
+    },
+    {
+      "path": "artifacts/test-results.tap",
+      "bytes": 7479,
+      "sha256": "97e51784d93c068018bc230f9f063d154e247775133e7c99c6f86dc68cdeb171"
+    },
+    {
+      "path": "artifacts/ui-verification.json",
+      "bytes": 375,
+      "sha256": "d428a4f68660c6099399c73baf80f1f0ffe7ce92f1b0c4ec02c272b915474bf0"
+    },
+    {
+      "path": "brag-output/STORYBOARD.md",
+      "bytes": 1838,
+      "sha256": "8c752a754017da72715c61306dbe5647d99d97e1a326844cb039ffb411a3ec50"
+    },
+    {
+      "path": "brag-output/VIDEO_DESCRIPTION.txt",
+      "bytes": 1323,
+      "sha256": "0f801a74eaa6e4825737e54012d459ab38ead64bdee6415eec1b6b788a275d79"
+    },
+    {
+      "path": "brag-output/VOICE_TRANSCRIPT_REVIEW.md",
+      "bytes": 710,
+      "sha256": "b05f042aed6f97b602be16ce2e9af03a1a757686e3f618023c646555d59f5f82"
+    },
+    {
+      "path": "brag-output/brag-plan.md",
+      "bytes": 2134,
+      "sha256": "1356278a6329e237e8d7064d6445e098ef4c16b9fb8cc31aba6a3de7f4080420"
+    },
+    {
+      "path": "brag-output/composition-brief.md",
+      "bytes": 1168,
+      "sha256": "2d2e13e7823f00c4a41d51857b37a1d189ee7e0fc9c2ee35d7e29eb751d3e2d0"
+    },
+    {
+      "path": "brag-output/demo-beat-edit-evidence.json",
+      "bytes": 1159,
+      "sha256": "2da51a628b008690b1c6407cfb6fded63db2807a8858a7be8d76b08cd2f86f9a"
+    },
+    {
+      "path": "brag-output/demo-edit.json",
+      "bytes": 4410,
+      "sha256": "47747f66c8dfe77d8dc72de4c8e08338644580c00dc2e2125e745733977980f5"
+    },
+    {
+      "path": "brag-output/judges-demo/AGENTS.md",
+      "bytes": 6985,
+      "sha256": "fd0ea55029dfc62c31614321d782f47476d3d5daaaa4116b56318ed501911f1b"
+    },
+    {
+      "path": "brag-output/judges-demo/CLAUDE.md",
+      "bytes": 6985,
+      "sha256": "fd0ea55029dfc62c31614321d782f47476d3d5daaaa4116b56318ed501911f1b"
+    },
+    {
+      "path": "brag-output/judges-demo/REVIEW.md",
+      "bytes": 2315,
+      "sha256": "3d09efa83be42f7ed6f4d48a5efaf1d10d9d9bc464e477b2ae65379c40e334f1"
+    },
+    {
+      "path": "brag-output/judges-demo/SPEC.md",
+      "bytes": 1935,
+      "sha256": "9e3316c1db88d59d8df60b96950b46275b3d3236c37010b50f5c523795d830d0"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/fonts/Anton-OFL.txt",
+      "bytes": 4484,
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/fonts/Anton.ttf",
+      "bytes": 170812,
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/fonts/EBGaramond-OFL.txt",
+      "bytes": 4398,
+      "sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/fonts/EBGaramond.ttf",
+      "bytes": 851176,
+      "sha256": "ef9512f92f6d579e5dc75af59a5a4b1b8b47d2eda89e00b954d44520e5369027"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/fonts/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/fonts/Inter.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/gsap.min.js",
+      "bytes": 72779,
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/images/helper-change.png",
+      "bytes": 4819,
+      "sha256": "b0b4314603fdb2934746b6f59cccfb88f0797278cdae2ac5b19973c360f1241a"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/images/helper-journeys.png",
+      "bytes": 71076,
+      "sha256": "d2bb295b870e979451cd4df601cb7e9029b8a3aeae2102b26f654da04f67ce5b"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/images/helper-observations.png",
+      "bytes": 111691,
+      "sha256": "5f90efe80a5e7e8b9364e13a37b945c64c0af638a83ba0114acc0adbf5f889f7"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/images/helper-origin.png",
+      "bytes": 4516,
+      "sha256": "1a4a3c60e8662523dd14a01019c36735aee491cc0734e1a24ff3c4e01af30977"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/images/helper-walk.png",
+      "bytes": 5130,
+      "sha256": "016ea151cfb12bd56af3c4358af9cd985a9398d255260994e35ea6e96eac55fe"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/images/home.png",
+      "bytes": 452457,
+      "sha256": "b6ca34c557bd009b396e09650d0bae7eead9682f4b1ed77eabc148889111d020"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/music/bed-long.wav",
+      "bytes": 33600078,
+      "sha256": "47837ccf98f04c2f8da2ecbae07aa8134ec1fb265cd7e44230a55bb6b5fff424"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/music/bed.mp3",
+      "bytes": 2817792,
+      "sha256": "5888d4bd2ba0119b87a94e502ae2cc401c08192945cc5e5c2f8e8a33aa47a0a1"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/music/cues.json",
+      "bytes": 59326,
+      "sha256": "b5d9d3fab3d73565fd7931b3f5ea22bf18b04ebcea56815df659c64639381c4f"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/music/phonk-demo.wav",
+      "bytes": 26110204,
+      "sha256": "118e64ec8bdd12c6601736248f521268d806dd53352554555b69363aaf2f5d78"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/music/rms.json",
+      "bytes": 2132,
+      "sha256": "b92ae237a5a69bec8ab9abbbb5a5fdd3fb8b4788894b95c4c9443ae9d6b90d2b"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/sfx/click_003.ogg",
+      "bytes": 4371,
+      "sha256": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/sfx/impactSoft_medium_001.ogg",
+      "bytes": 5506,
+      "sha256": "7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/change.mp4",
+      "bytes": 108495,
+      "sha256": "4751a8480706d35cb3cd864af969127146afc8e91a468554b4765eb5bb1d9a55"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/choose.mp4",
+      "bytes": 188224,
+      "sha256": "b6780d613b4125ab06e386484d26caa729912dc5fb850360f0ca3d1119804a57"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/lab.mp4",
+      "bytes": 406200,
+      "sha256": "7cd2ebec366cf11a6a8df81fed8f85972b97c35cfab7527f7ae6007a2c057e40"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/receipt.mp4",
+      "bytes": 162198,
+      "sha256": "a6b8a4d6fabb3d5f8875fcdf8dc2451cf341880e41b54b78c2a7bcf3f0b5b0f9"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/routes.mp4",
+      "bytes": 51613,
+      "sha256": "95cb10209d9a2e5ecd260863b6655d3319fc085c8f44048d5aea8f42ca6aeabc"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/saved.mp4",
+      "bytes": 181963,
+      "sha256": "b91b270d728bfe96fea4dd16f747b74710f454bdc62d3849102c5f19a5e01bed"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/steps.mp4",
+      "bytes": 152760,
+      "sha256": "fd5f93106e62d54c77703ad7fd6e9bfd50cba4fb0973a348ebe837873c830b7e"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/trailer-route.mp4",
+      "bytes": 133352,
+      "sha256": "1e73adf568ce691a4f341c8b4d6b747692f77624dbadd6ccc5c472756fdaf712"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/trailer-save.mp4",
+      "bytes": 102589,
+      "sha256": "7e6c5a8fb5b14392617045cc6f0987b27014df45a56117d1aa83d8aed85bd8a6"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/trailer-steps.mp4",
+      "bytes": 58515,
+      "sha256": "42f9d101f07bcd674c856f7e724be5b2fe34a1b6ceb3cb05ffc463f50e040b60"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/video/voice.mp4",
+      "bytes": 145178,
+      "sha256": "7cb30d6e3c5d0ef94beacc615b503b440b2b4a3b0177e257585b9539b90d1ff1"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/change.wav",
+      "bytes": 903246,
+      "sha256": "a7cd83f74a11f3f420baf04196330a3427f8437b514695131b044b1d992d4995"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/choose.wav",
+      "bytes": 671822,
+      "sha256": "9e77a928c4be3ed7c0866426e693654a14ac4235ca62e7923dbc631079009d29"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/hook.wav",
+      "bytes": 413774,
+      "sha256": "58aff627cbb9cbe9cb31ea9877b31a99c36618da544d0182f900406cc0be5aeb"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/lab.wav",
+      "bytes": 841806,
+      "sha256": "35952d394f0ccc29cf2101380dbd0f4fa5657c65d9529b7be966e24956933e20"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/outro.wav",
+      "bytes": 616526,
+      "sha256": "82e65bb9de447f2f2926ff90550552d0f4602b85ce86ae3791842b947f7df6d7"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/proof.wav",
+      "bytes": 979022,
+      "sha256": "d355f65e82b3ef5e4d977082de7716113ba625d4ae85467e5883642c70afccb6"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/receipt.wav",
+      "bytes": 956494,
+      "sha256": "d101646fa7cecf8624db83b350e729df82354a22b1d7cac7770e4d64a40020a6"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/reveal.wav",
+      "bytes": 714830,
+      "sha256": "ec6ec2a0d6d2412d98bfd4869fcd6746be20118e29c1e1c398007a5103519580"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/routes.wav",
+      "bytes": 874574,
+      "sha256": "81df05ef2d0fe856c12594ba1553d344227f4dd09012375de8c362849f707f34"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/runtime.wav",
+      "bytes": 919630,
+      "sha256": "a81a7f42b0ce2398615115b46a593331c1c663b943cd1e99736399032ac80e79"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/saved.wav",
+      "bytes": 602190,
+      "sha256": "3ffed019dac5179d30d7d283fd38c24a0492eda58fd9801009ee278d64aa8fb6"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/setup.wav",
+      "bytes": 831566,
+      "sha256": "b3efd874b0323a9edb4738fc7175b39fd29eace8f6ad86269681c560fa2c0a2b"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/steps.wav",
+      "bytes": 671822,
+      "sha256": "636ecc5590d25cc58400c9b73010d9cf1e62e58974c6ebdba0a64f75a43bf4db"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/transcript.json",
+      "bytes": 1289,
+      "sha256": "909aafffc695a856de37768d05eddaf56f85e2d4ff84899d33926a4617452b56"
+    },
+    {
+      "path": "brag-output/judges-demo/assets/voice/voice.wav",
+      "bytes": 690254,
+      "sha256": "96f5dc79b88b20348ee7a09b29e0258aba22ea81f0995a6046dedc139f2f8fcc"
+    },
+    {
+      "path": "brag-output/judges-demo/check-final.json",
+      "bytes": 3871,
+      "sha256": "10195056414b1380ab9e60234cc3507129d302009b0d9dc60b65b594eba486d8"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/captions.html",
+      "bytes": 12410,
+      "sha256": "036636e2fca47f67c9a0a8a96fe519eeb9c23c7dbba5bc19e58dd7178a63be23"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/change.html",
+      "bytes": 2256,
+      "sha256": "a14a76c75f13dc4067db578df70c064090b74abb5d7aa7e0211fe6ccfbc8808b"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/choose.html",
+      "bytes": 2368,
+      "sha256": "91825c9619d7504be5b0b109110b5a4f994078dc53c284bae72bd82cc18ba9c3"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/hook.html",
+      "bytes": 2217,
+      "sha256": "b4f111dd1690bbb913240078409e38deb500a7d901ff05812daaf6cd03360dfc"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/lab.html",
+      "bytes": 2197,
+      "sha256": "ffb185a92911ff456d9c7bcc0453108e83124a1f9bdd0719d0340a9989da5376"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/outro.html",
+      "bytes": 2384,
+      "sha256": "9bb955dec3fd5fde8c69a6fdd2f058033c35fa72c224261f7d1af97077a7ff3a"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/proof.html",
+      "bytes": 2364,
+      "sha256": "1715fb64dab6153eb751d0ca7039c8cc604ac82d8aae65650605fdfb7abb2256"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/receipt.html",
+      "bytes": 1918,
+      "sha256": "9ba9c7cb285703810ee300e523b238977e32e457f4b386ccac4a5b4eb03317eb"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/reveal.html",
+      "bytes": 2354,
+      "sha256": "d7f7d9c8ce3e1cc07c923b686b0dc74ce2e05ff771a461b37a0df9a15b1220ff"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/routes.html",
+      "bytes": 2370,
+      "sha256": "c7e5f208d2679e72a967f729cebe2370260b71edabf099310d2f188d0c6d2556"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/runtime.html",
+      "bytes": 2403,
+      "sha256": "f462d158c04c138ae4bdc3febb0e42afb51840ff0f7b3f6526e08f600d9391c2"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/saved.html",
+      "bytes": 2046,
+      "sha256": "fa1c0d3a48184137b41dfba85cc40b45f1832eabbf1fbdb9bc99837ca989c3bd"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/setup.html",
+      "bytes": 2830,
+      "sha256": "670ed6234a8afebdbc65e078deee344303e01571705e5961d1238d19a15c863b"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/steps.html",
+      "bytes": 2362,
+      "sha256": "9e2567a56d4f576277a7baf05b475659e3281242279a76c40fcf4a6f38a90251"
+    },
+    {
+      "path": "brag-output/judges-demo/compositions/voice.html",
+      "bytes": 2358,
+      "sha256": "d8fb2c80856198c91a7f63474e29f0717fbf1904269a6b385368f2a4a46435a6"
+    },
+    {
+      "path": "brag-output/judges-demo/hyperframes.json",
+      "bytes": 346,
+      "sha256": "3af6ecb4d7f8c0cf28a50880f71291f27406c4548e5db2ea2d57430abd99e0e1"
+    },
+    {
+      "path": "brag-output/judges-demo/index.html",
+      "bytes": 9335,
+      "sha256": "925597bde1ba1d3290a04a6ae740617c704e1ab2bec90a4bf6959a4c7c4da809"
+    },
+    {
+      "path": "brag-output/judges-demo/meta.json",
+      "bytes": 93,
+      "sha256": "543b7283800f4f30fb7e6c1d32f04c81e34c4ca294821aa33bef39b483b27339"
+    },
+    {
+      "path": "brag-output/judges-demo/package.json",
+      "bytes": 300,
+      "sha256": "8388d124b15252779686270f4c7f5717c8c391831cd7a4b98cbcc96f55b651d7"
+    },
+    {
+      "path": "brag-output/kokoro-model-provenance.json",
+      "bytes": 271,
+      "sha256": "e921503d57977d7a028839a222e7284f47c72f841a71b882424327ca38d0c87c"
+    },
+    {
+      "path": "brag-output/music/LICENSE.md",
+      "bytes": 874,
+      "sha256": "781898515f6d9ba98293bcfe9db833d7d266fe84eb9456ac85485ea5803c851d"
+    },
+    {
+      "path": "brag-output/music/demo-cues.json",
+      "bytes": 14215,
+      "sha256": "c4d08d9875a80ff68eb96c00f9d122617df384a14cb38655b50cc5708d737f3e"
+    },
+    {
+      "path": "brag-output/share-copy.txt",
+      "bytes": 242,
+      "sha256": "ee2a8acb9fd42275a761e3af73fe3c81b77b66db0ec4e205363273fdf230f610"
+    },
+    {
+      "path": "brag-output/transcripts/change/transcript.json",
+      "bytes": 2032,
+      "sha256": "2b875064d97b51237a832766e84b7f770f115fdaf9efef25be9d06d5015078ad"
+    },
+    {
+      "path": "brag-output/transcripts/choose/transcript.json",
+      "bytes": 1461,
+      "sha256": "e4bdfc8ffd2a272d9ed4c73b702730c2b14829a392395e727a8496d60f573e8e"
+    },
+    {
+      "path": "brag-output/transcripts/hook/transcript.json",
+      "bytes": 1289,
+      "sha256": "909aafffc695a856de37768d05eddaf56f85e2d4ff84899d33926a4617452b56"
+    },
+    {
+      "path": "brag-output/transcripts/lab/transcript.json",
+      "bytes": 2025,
+      "sha256": "3e89b5848f5016c8e9675a4ec9cf5f944365dd81a57748966381021fb22e706f"
+    },
+    {
+      "path": "brag-output/transcripts/outro/transcript.json",
+      "bytes": 1378,
+      "sha256": "24ea5dfe7073fd22086698c74420886b6d6712402dff39a88e82a8b0703969e2"
+    },
+    {
+      "path": "brag-output/transcripts/proof/transcript.json",
+      "bytes": 1881,
+      "sha256": "db2de56c9e846843ebb8ca0d8564f38a2be69cc11c20b253d01a434cabcd4a77"
+    },
+    {
+      "path": "brag-output/transcripts/receipt/transcript.json",
+      "bytes": 2052,
+      "sha256": "9f943a7bdb32d6a83dcae7e2604e2fb625a34d5cbf021645613761af34737ffd"
+    },
+    {
+      "path": "brag-output/transcripts/reveal/transcript.json",
+      "bytes": 1625,
+      "sha256": "20f242d5c6747592a87f2dc2489a000f5dfd590e48544a3a40411d4581b301bf"
+    },
+    {
+      "path": "brag-output/transcripts/routes/transcript.json",
+      "bytes": 1881,
+      "sha256": "aab865528cb7b947f12ba50498227b757ff0d6585c869a01627a0492d8ff909c"
+    },
+    {
+      "path": "brag-output/transcripts/runtime/transcript.json",
+      "bytes": 1884,
+      "sha256": "e4cd09e422de96adf7e882d6d2ed0b44834e151a4aa8bf9c7cbf8c51d8d508de"
+    },
+    {
+      "path": "brag-output/transcripts/saved/transcript.json",
+      "bytes": 1382,
+      "sha256": "3fb03d14a632787295ca58b0f8a9416a418a16b70d8a64717380fdb9af5bcb31"
+    },
+    {
+      "path": "brag-output/transcripts/setup/transcript.json",
+      "bytes": 1651,
+      "sha256": "9541650b32da6724c93a7ef49d52396d74fae5bdf508065aacbc8c4a75f9382d"
+    },
+    {
+      "path": "brag-output/transcripts/steps/transcript.json",
+      "bytes": 1779,
+      "sha256": "c80fef7c32b9e6410576b237976b1b06f7abd648497cc00f1744b493c0a5cfd7"
+    },
+    {
+      "path": "brag-output/transcripts/voice/transcript.json",
+      "bytes": 1545,
+      "sha256": "adff135cb0b3eb86bc2f52e415249c5adaec681bea66c6c8f6fda1c328f60624"
+    },
+    {
+      "path": "deploy/azure/Caddyfile",
+      "bytes": 148,
+      "sha256": "9a06eb84d69507a4af7f46b0f7fa0b24b803f03630ab956a13d8fb78a717749a"
+    },
+    {
+      "path": "deploy/azure/cloud-init.yaml",
+      "bytes": 224,
+      "sha256": "cdab226088232abe72c7629a7b0f761bf2d02bd0bf2171a9ed7d77a5302ca746"
+    },
+    {
+      "path": "deploy/azure/compose.yaml",
+      "bytes": 808,
+      "sha256": "75613a8f9cd9583010b1319863fcb1a7edff5c18e5adbb79098cca611b5b4323"
+    },
+    {
+      "path": "docs/AZURE_DEPLOYMENT.md",
+      "bytes": 6463,
+      "sha256": "06a84eef453d5faf5a5c7f183939f7e61d560bf1385e8a059a33cd0366c69f33"
+    },
+    {
+      "path": "docs/DEMO_RECORDING.md",
+      "bytes": 4567,
+      "sha256": "bb0f9a978f64f3bb06e73d37469683bb8f61b9d1608f27fa698290ae0aa10140"
+    },
+    {
+      "path": "docs/DEVPOST_DRAFT.md",
+      "bytes": 6080,
+      "sha256": "d09dccb67c4caadb7be400454dfae9db21b8951392be881c901630a8d7cc4ede"
+    },
+    {
+      "path": "docs/INTEGRATION_SOURCES.md",
+      "bytes": 2595,
+      "sha256": "87e59c1d87702c45cee7b0f2360388ee3c7299ed72d45541a57d2848995e0b32"
+    },
+    {
+      "path": "docs/PRODUCT_FEEDBACK.md",
+      "bytes": 7005,
+      "sha256": "2c8b1f12fa5c0857a8ac4ff9854b1243b0ac1712ba1b6c0f743fc0f1de46ece3"
+    },
+    {
+      "path": "docs/REA_FINDINGS.md",
+      "bytes": 2503,
+      "sha256": "fff39d3b409862ce93cf5542f406c0e308daaafdf8e153179a901810aa0ed693"
+    },
+    {
+      "path": "docs/REVIEW_GUIDE.md",
+      "bytes": 3049,
+      "sha256": "b0519f9483dca620b9c6b32c843e15cc0df33a39d60dcb2184a72cd0da0469d6"
+    },
+    {
+      "path": "docs/UPGRADE_PLAN.md",
+      "bytes": 1760,
+      "sha256": "e8d9eed8da4e19f8e2006dcdd2b1ac3de813720d06919f15705d8343223884ca"
+    },
+    {
+      "path": "docs/USABILITY_PROTOCOL.md",
+      "bytes": 3615,
+      "sha256": "474aa83634096257f825aa7f786ddd34430cca2b7831defed3a7dc510b0534c7"
+    },
+    {
+      "path": "docs/USER_FINDINGS.md",
+      "bytes": 922,
+      "sha256": "b37f04b9fd01f129d726c9024918c95bf0d33004cd62db8c285ff1b55a389f00"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 4311,
+      "sha256": "2bcc3fb975bdf617636246d7afbeb4603dd772e95b96148527a635f8a05d7e5c"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 79142,
+      "sha256": "e4810bcf50fd434849be21606ebb26021cfadf159b2605d6dd5941fcfe433b2b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1572,
+      "sha256": "849ae6a8ff5cc8e3e5454128e219171b13b585a606578741f93bcb5f5a313af0"
+    },
+    {
+      "path": "scripts/android-env.sh",
+      "bytes": 501,
+      "sha256": "22f7945e4a77989ce77981b95e36bfed003c333616e1af7250ddc47491ab6ff5"
+    },
+    {
+      "path": "scripts/build-android.sh",
+      "bytes": 453,
+      "sha256": "76273e7347c2a8e1ba14f911c321231f8c3a3069a6b813e12bce0c5bc931a7f6"
+    },
+    {
+      "path": "scripts/build-brag-compositions.py",
+      "bytes": 13192,
+      "sha256": "fbc9e407e30da22d3fe9e65c8fcaf78b6827b770250442962682d26aedde4184"
+    },
+    {
+      "path": "scripts/build-brag-demo.py",
+      "bytes": 13860,
+      "sha256": "f48ba01b550128507235ba185f5979e56703e1d00f25115e8fb918a5bc0edb39"
+    },
+    {
+      "path": "scripts/capture-rea.ts",
+      "bytes": 1088,
+      "sha256": "412bbcda58513d92c9a2d187769becb1488ddbcc51198b7801401a2d75cdde0f"
+    },
+    {
+      "path": "scripts/compose-demo.py",
+      "bytes": 4990,
+      "sha256": "6ee6d3fb41a8e913a3b0e3e114082fdb1052e39ba9179c937f1642549c598a05"
+    },
+    {
+      "path": "scripts/create-captions.py",
+      "bytes": 1395,
+      "sha256": "92dffc15f5cf6532b8c99941bc4bd694a1d3b7ee8d8cf4d7575c9d6a13f4593b"
+    },
+    {
+      "path": "scripts/generate-brag-narration.py",
+      "bytes": 2203,
+      "sha256": "40e375d54623384c29260d5910b4aab8d181e073f73ccde7440f692284b6e82e"
+    },
+    {
+      "path": "scripts/package-review.py",
+      "bytes": 3903,
+      "sha256": "8ae489c4a4eb2be0b3c7703a40410859addea6f35373a88f97a0a5287d26058d"
+    },
+    {
+      "path": "scripts/prepare-azure-upload.py",
+      "bytes": 2039,
+      "sha256": "28339ab8a88d1a160a99a26e896307531354728279d575c0a9b1f26405b2c4f9"
+    },
+    {
+      "path": "scripts/record-brag-cloud.ts",
+      "bytes": 5931,
+      "sha256": "0fa2bccdc428bc4c35d303959a1198bc4af8c1bab7c9caf7d83d0ccf86113536"
+    },
+    {
+      "path": "scripts/record-demo.sh",
+      "bytes": 448,
+      "sha256": "ef28dad2e31d2ac9479c8cdce2f9f70ba03e440f23370ae8304d553eaf72c48f"
+    },
+    {
+      "path": "scripts/record-upgrade.ts",
+      "bytes": 4910,
+      "sha256": "1f72f62c53dc7e000bc4bf088c5d74da3640dce3f7988b80e206c93ca0d8f9c3"
+    },
+    {
+      "path": "scripts/record-walkthrough.ts",
+      "bytes": 4339,
+      "sha256": "a5bffb450a2b28031e38bb9a55fb05a5228f8ac64029da472e726611712314d2"
+    },
+    {
+      "path": "scripts/run-android.sh",
+      "bytes": 501,
+      "sha256": "34993fa3a5d38795f83963c662814af29519a156e52033b5e968017fea377e3a"
+    },
+    {
+      "path": "scripts/setup-android.sh",
+      "bytes": 1542,
+      "sha256": "0f4f365fa125cb33e66852ba1b705d4b877e59f2f5a3fe9a1ed9b12c03708de3"
+    },
+    {
+      "path": "scripts/smoke-live-journeys.ts",
+      "bytes": 1600,
+      "sha256": "3eb37d858d7a6aac03ad4bb851e5220fb143ce48ccf8a3650ff1a8c40f72fa4c"
+    },
+    {
+      "path": "scripts/verify-azure-emulator.ts",
+      "bytes": 5073,
+      "sha256": "1ef3d87a82d16c5ca0db82bd639df4fe0b81d63a734bdc5fc65e813f2949ac51"
+    },
+    {
+      "path": "scripts/verify-azure.ts",
+      "bytes": 5525,
+      "sha256": "2089260fa1f31cb232224579bd0948d51f9ed84ac1c3f71d6c51092c151b52e4"
+    },
+    {
+      "path": "scripts/verify-emulator.ts",
+      "bytes": 6090,
+      "sha256": "b89850d3e881d67c8c67cb4560ceeb90e8fcf4560c01829e19767ce54965f3ee"
+    },
+    {
+      "path": "scripts/verify-journey-ui.ts",
+      "bytes": 4979,
+      "sha256": "1d1073c9a26716654c1a1067d80aa6b59c404f0fcf0a3b1faa887f98b2fc2f7b"
+    },
+    {
+      "path": "scripts/verify-live-emulator.ts",
+      "bytes": 4837,
+      "sha256": "59c54a11cb9e3a2d2fb5b1d3486d1018ea6a171bbe22457c375668f35e3e4b9e"
+    },
+    {
+      "path": "scripts/verify-ui.ts",
+      "bytes": 6310,
+      "sha256": "07e229fae7f5383c658247270691a690f556918770eb00389aeee288abcd5efb"
+    },
+    {
+      "path": "server/adapter.ts",
+      "bytes": 3928,
+      "sha256": "baea5ac604c0be065ec6cab3b2e78b33675de11ecda2513164eb3c0599542d9e"
+    },
+    {
+      "path": "server/app.ts",
+      "bytes": 18861,
+      "sha256": "873f063ee84efdd63841c98cb293a2fb3b4e59a353caaabf8216300233dd9da4"
+    },
+    {
+      "path": "server/cloud-access.ts",
+      "bytes": 5693,
+      "sha256": "4208074d0dd4778341d0370666304a0417ae6ce18fb7d02e9212f20d18c7d23e"
+    },
+    {
+      "path": "server/coordinator.ts",
+      "bytes": 9900,
+      "sha256": "cda06dc448a1cbc00e375376c84286da4203bb14a3e7b35d8f6e540875ef5b1a"
+    },
+    {
+      "path": "server/index.ts",
+      "bytes": 866,
+      "sha256": "83c6c36721a9cd29892bc61e80411a8fabb5d4e3f6a251a55e32d53507c407c1"
+    },
+    {
+      "path": "server/journeys-shared.ts",
+      "bytes": 2435,
+      "sha256": "8dd14557c6860bcadd76c853c0f2da4b8697831b6c26a1ebb6126c7ac8fb0bf8"
+    },
+    {
+      "path": "server/journeys.ts",
+      "bytes": 6666,
+      "sha256": "b47eb02b856e8fc8eb4ac3c9ec37a36d3560c409b985f71d32d517606217f832"
+    },
+    {
+      "path": "server/provider.ts",
+      "bytes": 4361,
+      "sha256": "de9941bb6b715f0f4c742eef2a36eaa54045114fc2bf717498c7ae14a9064ac9"
+    },
+    {
+      "path": "server/shared.ts",
+      "bytes": 2317,
+      "sha256": "9237e795fd8d22eb114f9d06c6ce12458578e0a00dc5471da5d37597d324ffc3"
+    },
+    {
+      "path": "server/store.ts",
+      "bytes": 3805,
+      "sha256": "a6ded8b006bc92f3e25e928abbd38dc9ea1dc4f80526f4e9de7099a2f86550b3"
+    },
+    {
+      "path": "server/study.ts",
+      "bytes": 2316,
+      "sha256": "0bbcdd9572d5578b9c8bb2e511f6299ecb2c67d3c68e1809b47791c6fbd65b4d"
+    },
+    {
+      "path": "server/voice.ts",
+      "bytes": 2935,
+      "sha256": "228413f549d6349b47045233be111636b919aba35d9ced5f2880e1e9c7c6fcda"
+    },
+    {
+      "path": "tests/cloud-access.test.ts",
+      "bytes": 4769,
+      "sha256": "aa187db0fef92bd55e020ce19e92e34f4582dfba4c03ba5fff3a0e8bad1470bd"
+    },
+    {
+      "path": "tests/fixtures/tfl.ts",
+      "bytes": 1586,
+      "sha256": "96b283af5f324d0aec9480b255f5fe207f9db54fabd8d87ac15fd21ec5ae2fb3"
+    },
+    {
+      "path": "tests/journeys.test.ts",
+      "bytes": 10243,
+      "sha256": "27d7f42362bf99e949e9865d514795566cd793ad9d280150ad76c18d3b6e568d"
+    },
+    {
+      "path": "tests/workflow.test.ts",
+      "bytes": 12258,
+      "sha256": "1b1120e43d256bb0ed30bf8f06264642b343ac76bd25a2548a9e930eedcd4412"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 422,
+      "sha256": "7dcc1e91987c8a5e62edf8c355571c487dbbf0271465b822210c47a93631af7b"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 359,
+      "sha256": "56c22a7029aa4846bd281f37f68d364a52875fa60e54a3048727670e809d6ba4"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 326,
+      "sha256": "1de109df4f4d11518be4afa697c49b1531d4acca1e3df6a9eb9dd988aa24cd4e"
+    },
+    {
+      "path": "web/src/journey-ui.tsx",
+      "bytes": 40636,
+      "sha256": "e866f8ca4c5585f73b82dc0449876eb49aa1b890c7d20a2e8fba63cbd446bb58"
+    },
+    {
+      "path": "web/src/main.tsx",
+      "bytes": 72117,
+      "sha256": "f0a126222ff4c9128b5b2cacc5609e9b5b5a77129e9408d1395c1f44df3581ca"
+    },
+    {
+      "path": "web/src/remote.ts",
+      "bytes": 3148,
+      "sha256": "273e43129fcbc88048045830fe2a63931705154a9c1371bea0473ebe2d486e11"
+    },
+    {
+      "path": "web/src/style.css",
+      "bytes": 51920,
+      "sha256": "ad753ce8fa08840a91eafb1bf545f746c5fdb2026b1c8615506b4c6341d874da"
+    }
+  ]
+}

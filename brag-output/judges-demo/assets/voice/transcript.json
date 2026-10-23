@@ -1,0 +1,98 @@
+[
+  {
+    "text": "The",
+    "start": 0.03,
+    "end": 0.17,
+    "id": "w0"
+  },
+  {
+    "text": "hardest",
+    "start": 0.22,
+    "end": 0.74,
+    "id": "w1"
+  },
+  {
+    "text": "part",
+    "start": 0.74,
+    "end": 1.03,
+    "id": "w2"
+  },
+  {
+    "text": "of",
+    "start": 1.03,
+    "end": 1.09,
+    "id": "w3"
+  },
+  {
+    "text": "a",
+    "start": 1.18,
+    "end": 1.24,
+    "id": "w4"
+  },
+  {
+    "text": "simple",
+    "start": 1.24,
+    "end": 1.68,
+    "id": "w5"
+  },
+  {
+    "text": "journey",
+    "start": 1.68,
+    "end": 1.91,
+    "id": "w6"
+  },
+  {
+    "text": "should",
+    "start": 2.25,
+    "end": 2.5,
+    "id": "w7"
+  },
+  {
+    "text": "not",
+    "start": 2.5,
+    "end": 2.58,
+    "id": "w8"
+  },
+  {
+    "text": "be",
+    "start": 2.65,
+    "end": 2.72,
+    "id": "w9"
+  },
+  {
+    "text": "asking",
+    "start": 2.72,
+    "end": 3.16,
+    "id": "w10"
+  },
+  {
+    "text": "someone",
+    "start": 3.16,
+    "end": 3.51,
+    "id": "w11"
+  },
+  {
+    "text": "else",
+    "start": 3.51,
+    "end": 3.68,
+    "id": "w12"
+  },
+  {
+    "text": "to",
+    "start": 3.73,
+    "end": 3.78,
+    "id": "w13"
+  },
+  {
+    "text": "plan",
+    "start": 3.83,
+    "end": 3.98,
+    "id": "w14"
+  },
+  {
+    "text": "it.",
+    "start": 3.98,
+    "end": 4.14,
+    "id": "w15"
+  }
+]
